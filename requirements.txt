@@ -1,0 +1,18 @@
+# Pin these to the versions you actually ran. torch/transformers especially
+# affect hidden-state numerics — record your exact versions here before sharing.
+# Reproduced on: NVIDIA H200, CUDA <fill>, Python <fill>.
+#
+# torch==<your version>         # install the CUDA build matching your driver
+# transformers==<your version>
+torch
+transformers
+huggingface_hub
+openai>=1.0
+python-dotenv
+nest_asyncio
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+tqdm
