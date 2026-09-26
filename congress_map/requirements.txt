@@ -1,0 +1,9 @@
+# versions used to produce results/ (Python 3.11, CUDA 12.6)
+torch==2.7.0
+transformers==4.57.3
+accelerate==0.34.2
+numpy
+pandas==2.2.3
+scipy==1.14.1
+matplotlib
+pillow
