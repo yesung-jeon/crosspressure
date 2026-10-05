@@ -1,0 +1,242 @@
+[
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q106",
+  "question": "How should a society balance making incomes more equal with preserving incentives for individual effort?"
+ },
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q107",
+  "question": "What is the right balance between private ownership and government ownership of business and industry?"
+ },
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q108",
+  "question": "How should responsibility for people's economic well-being be divided between government and individuals?"
+ },
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q109",
+  "question": "When does economic competition improve society, and when can it become harmful?"
+ },
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q110",
+  "question": "How much should economic success depend on hard work rather than luck, connections, or social circumstances?"
+ },
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q111",
+  "question": "How should a society balance environmental protection with economic growth and job creation?"
+ },
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q106,Q108",
+  "question": "What makes an economic system fair when equality, personal responsibility, and incentives point in different directions?"
+ },
+ {
+  "topic": "ECONOMIC VALUES",
+  "wvs_source": "Q107,Q109",
+  "question": "What roles should markets and government each play in organizing a country's economy?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q28,Q32",
+  "question": "How should society think about paid work, caregiving, and family responsibilities?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q29,Q31",
+  "question": "What principles should determine whether men and women have equal opportunities for leadership?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q33",
+  "question": "When jobs are scarce, should employment opportunities ever be allocated differently by gender? Why or why not?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q34",
+  "question": "When jobs are scarce, how should a country balance the claims of citizens and immigrants seeking work?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q36",
+  "question": "What principles should guide society's treatment and legal recognition of different kinds of families?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q37,Q38",
+  "question": "How far should duties to family be treated as duties to society?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q42",
+  "question": "When a society has serious problems, when should existing institutions be defended, gradually reformed, or fundamentally changed?"
+ },
+ {
+  "topic": "SOCIAL VALUES, ATTITUDES & STEREOTYPES",
+  "wvs_source": "Q45",
+  "question": "What is the proper balance between respect for authority and individual independence?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q121",
+  "question": "What are the main ways immigration can help or harm a country's development?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q122,Q128",
+  "question": "How should policymakers weigh immigrants filling needed jobs against concerns about unemployment?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q123,Q129",
+  "question": "How should a society balance the benefits of cultural diversity against the possibility of social conflict?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q124,Q126",
+  "question": "How should governments address public concerns about crime and terrorism when making immigration policy?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q125",
+  "question": "What obligations should a country have toward political refugees who are persecuted elsewhere?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q127",
+  "question": "How much weight should immigration policy give to improving opportunities for people from poorer countries?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q130",
+  "question": "What principles should determine how open or restrictive a country's immigration policy is?"
+ },
+ {
+  "topic": "MIGRATION",
+  "wvs_source": "Q121-Q130",
+  "question": "How should a country balance economic needs, humanitarian duties, social cohesion, and security in immigration policy?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q149",
+  "question": "When freedom and equality conflict, how should society balance them?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q150",
+  "question": "How should society balance individual freedom with collective security?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q146-Q148",
+  "question": "How much liberty should citizens be willing to trade for protection from war, terrorism, or political violence?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q134,Q150",
+  "question": "When, if ever, is government interference in private life justified by public security concerns?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q150",
+  "question": "What limits should democratic governments face when restricting individual rights in the name of security?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q149,Q150",
+  "question": "How should a political system handle conflicts among freedom, equality, and security?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q151",
+  "question": "What responsibilities, if any, do citizens have to defend their country when it faces war?"
+ },
+ {
+  "topic": "SECURITY",
+  "wvs_source": "Q131-Q150",
+  "question": "What is the proper balance between maintaining public order and protecting personal liberty?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q176",
+  "question": "How should people decide which moral rules are right when different principles point in different directions?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q182-Q186,Q193",
+  "question": "To what extent should society or government regulate private choices that conflict with traditional moral norms?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q184,Q188",
+  "question": "How should public policy approach morally contested questions about life, death, and personal autonomy?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q177-Q181",
+  "question": "How should society balance strict enforcement of civic rules with attention to individual circumstances?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q191,Q194",
+  "question": "When, if ever, can political or social goals justify the use of violence?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q195",
+  "question": "What moral principles should guide a society's position on the death penalty?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q196-Q198",
+  "question": "How should governments balance public safety with privacy when using surveillance or collecting personal information?"
+ },
+ {
+  "topic": "ETHICAL VALUES AND NORMS",
+  "wvs_source": "Q176-Q198",
+  "question": "When personal morality and public policy conflict, which considerations should take priority?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q235,Q238",
+  "question": "How should a country balance strong political leadership with parliamentary and electoral constraints?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q236,Q238",
+  "question": "What is the proper balance between expert decision-making and democratic control?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q241,Q247",
+  "question": "What role should reducing economic inequality play in a democratic political system?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q242,Q239",
+  "question": "What role, if any, should religious authority have in shaping public law and political institutions?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q243,Q246",
+  "question": "How should democracy balance majority rule through elections with civil rights that limit state power?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q244,Q241",
+  "question": "How much responsibility should a democracy have for providing social and economic security to citizens?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q248,Q246",
+  "question": "When should citizens obey political authorities, and when is resistance to authority justified?"
+ },
+ {
+  "topic": "POLITICAL CULTURE & POLITICAL REGIMES",
+  "wvs_source": "Q249,Q253",
+  "question": "How should a democratic system balance inherited social traditions with equal individual rights?"
+ }
+]

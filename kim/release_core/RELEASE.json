@@ -1,0 +1,341 @@
+{
+ "sealed": "2026-10-04T21:08:46",
+ "scope": "kim/manuscript/RESEARCH_DESIGN.md v2, steps 2-5 (step 1 excluded)",
+ "model": "Qwen2.5-7B-Instruct (int8) generator; Qwen2.5-3B-Instruct judge",
+ "status": "exploratory; one model",
+ "values": {
+  "s2_yearswap_internal_y1955": {
+   "value": 0.3357166333333379,
+   "step": 2,
+   "claim": "same legislator in 1955, internal social position vs own year"
+  },
+  "s2_yearswap_internal_y2015": {
+   "value": -0.21626153666665582,
+   "step": 2,
+   "claim": "same legislator in 2015, internal social position vs own year"
+  },
+  "s2_yearswap_output_y1955": {
+   "value": 0.17125204081095022,
+   "step": 2,
+   "claim": "same legislator in 1955, judge score on social answers vs own year"
+  },
+  "s2_yearswap_output_y2015": {
+   "value": -0.15734443661074363,
+   "step": 2,
+   "claim": "same legislator in 2015, judge score on social answers vs own year"
+  },
+  "s2_ordinary_internal_1955_minus_2023": {
+   "value": 0.9556049833333333,
+   "step": 2,
+   "claim": "ordinary persons 1955 vs 2023, internal social position (paired)"
+  },
+  "s2_ordinary_output_1955_minus_2023": {
+   "value": 0.36791867553111524,
+   "step": 2,
+   "claim": "ordinary persons 1955 vs 2023, judge score on social answers"
+  },
+  "s2_m2_ordinary_decade_ratio": {
+   "value": 1.1069910986410758,
+   "step": 2,
+   "claim": "decade wording / numeric year, ordinary persons"
+  },
+  "s2_m2_ordinary_era_ratio": {
+   "value": 0.9183467282746011,
+   "step": 2,
+   "claim": "era wording / numeric year, ordinary persons"
+  },
+  "s2_m2_legislator_decade_ratio": {
+   "value": 0.936432888339186,
+   "step": 2,
+   "claim": "decade wording / numeric year, legislators"
+  },
+  "s2_m2_legislator_era_ratio": {
+   "value": 0.8117977346059325,
+   "step": 2,
+   "claim": "era wording / numeric year, legislators"
+  },
+  "s2_m2_employee_control_ratio": {
+   "value": -0.021892703724883368,
+   "step": 2,
+   "claim": "employee-number control / numeric year"
+  },
+  "s2_tone_ordinary_sd": {
+   "value": 0.8688117625426465,
+   "step": 2,
+   "claim": "tone shift 1955 vs 2023, ordinary persons (SD units)"
+  },
+  "s2_ideology_ordinary_sd": {
+   "value": 0.8627159752972913,
+   "step": 2,
+   "claim": "social-ideology shift 1955 vs 2023, ordinary persons (SD units)"
+  },
+  "s2_formality_ordinary_sd": {
+   "value": 0.061319056091457706,
+   "step": 2,
+   "claim": "formality shift 1955 vs 2023, ordinary persons (SD units)"
+  },
+  "s2_time_direction_heldout_r": {
+   "value": 0.8987536571390805,
+   "step": 2,
+   "claim": "time direction vs year, held-out persons (r)"
+  },
+  "s2_time_direction_peak_year": {
+   "value": 2023.0,
+   "step": 2,
+   "claim": "year at which the held-out time projection peaks"
+  },
+  "s2_wvs_yearswap_ratio": {
+   "value": 0.7924019018119263,
+   "step": 2,
+   "claim": "WVS-question year-swap shift / Kim-question shift"
+  },
+  "s2_wvs_person_corr": {
+   "value": 0.9182582400976987,
+   "step": 2,
+   "claim": "person-level r, WVS vs Kim-question year-swap shift"
+  },
+  "s3_calendar_internal_kim_per_year": {
+   "value": -0.008452274814192622,
+   "step": 3,
+   "claim": "within-member calendar drift, internal social position per year (Kim questions)"
+  },
+  "s3_calendar_internal_wvs_per_year": {
+   "value": -0.007086682984247367,
+   "step": 3,
+   "claim": "within-member calendar drift per year (WVS questions)"
+  },
+  "s3_real_drift_internal_np1": {
+   "value": 0.015472827765868898,
+   "step": 3,
+   "claim": "within-member response to real roll-call change (Nokken-Poole dim1)"
+  },
+  "s3_calendar_output_per_decade": {
+   "value": -0.06021434511548228,
+   "step": 3,
+   "claim": "calendar drift in social answers per decade, net of the record"
+  },
+  "s3_rep_corr_raw": {
+   "value": -0.6214875328424263,
+   "step": 3,
+   "claim": "Republican party-mean social position vs real ideology, uncorrected (r)"
+  },
+  "s4_yearswap_dw_units": {
+   "value": 1.0960137138687038,
+   "step": 4,
+   "claim": "1955 vs 2015 year swap in DW-NOMINATE units"
+  },
+  "s4_party_gap_dw_2023": {
+   "value": 0.8921362668465395,
+   "step": 4,
+   "claim": "Republican - Democrat DW-NOMINATE gap, 2023"
+  },
+  "s4_real_rep_change_dw": {
+   "value": 0.22791685531031886,
+   "step": 4,
+   "claim": "real Republican change in DW-NOMINATE, 1947-2023"
+  },
+  "s4_output_ratio": {
+   "value": 2.0642961827284596,
+   "step": 4,
+   "claim": "answers: year-swap shift / Republican - Democrat gap"
+  },
+  "s5_rep_corr_corrected": {
+   "value": 0.8541618591069967,
+   "step": 5,
+   "claim": "Republican party-mean social position vs real ideology, corrected (r)"
+  },
+  "s5_baseline_corr_min": {
+   "value": 0.5867066246089451,
+   "step": 5,
+   "claim": "corrected Republican r, minimum over 8 baseline groups"
+  },
+  "s5_baseline_corr_max": {
+   "value": 0.8890805746610103,
+   "step": 5,
+   "claim": "corrected Republican r, maximum over 8 baseline groups"
+  },
+  "s5_rep_change_age70": {
+   "value": -0.1379420501332297,
+   "step": 5,
+   "claim": "Republican 1947-2023 change under the age-70 baseline"
+  },
+  "s5_rep_change_south_rural": {
+   "value": -0.0017069601332301149,
+   "step": 5,
+   "claim": "Republican 1947-2023 change under the Southern rural baseline"
+  },
+  "s5_econ_output_ordinary_1955_minus_2023": {
+   "value": 0.13426326681252673,
+   "step": 5,
+   "claim": "ordinary persons 1955 vs 2023, judge score on economic answers (+ = market)"
+  },
+  "s5_econ_internal_slope_mean": {
+   "value": 0.6252,
+   "step": 5,
+   "claim": "mean per-century slope of internal economic position (+ = right) for ordinary persons"
+  },
+  "judge_auc_social": {
+   "value": 0.8752,
+   "step": 0,
+   "claim": "judge validation AUC, social"
+  },
+  "judge_auc_economic": {
+   "value": 0.9464,
+   "step": 0,
+   "claim": "judge validation AUC, economic"
+  }
+ },
+ "intermediate_inputs_sha256": {
+  "member_generations.csv": "5bf6d851a5d4f8fd877f9212e0ef1ce6143474e8109fb27b428ad47714b5f55f",
+  "counterfactual_personas.csv": "3653ca67ff44ea33b08ca723b5d0fdfaed7c25a96058372587c21058afb07343",
+  "counterfactual_generations.csv": "8f59289b09e3be70511dccb92a9e08db8e24c73739c82ed928d384e770a4ffb8",
+  "anonymous_cells.csv": "6334899f16792835af919b10bffb3761aa9764831b5919692edac4b6e20081a9",
+  "anonymous_generations.csv": "02c99b5cd6a9621e1e99d4b3f889e0cba0c424b436dc80d4cd1ea42fe8d922e9",
+  "real_member_projections.csv": "7e54d8b4e90fd568d5334c258620e9bb912cc51090900a80c9518d6a182c1a9a",
+  "offset_personas.csv": "f9c828fc68a503953d485abb9fbf8f0bb8ec5db27078f99a91f1bff623f0621f",
+  "offset_generations.csv": "91357f8b3b963c414b3533531d7430a3c1b0a029f23fa89178ae54d68278bd47",
+  "t1_personas.csv": "8d19d6ba5dc4fff46026fc2fce47ca5296cbf5a488a362a189efa5ece5f47946",
+  "t1_generations.csv": "8a5b4eb60e02f6bf79323d4935ae158be5cb2721bed06b143164800f3eb398de",
+  "time_direction.npy": "c94a31da427503a9bdec3c9879f4754d91800516260812a6579d520ba8cb014b",
+  "time_persons.csv": "169dc8da5ecbeb780c5e7f897bd8dc60be1548ad0725779fb9cc19f9d60ca18c",
+  "time_panel.csv": "0614787cdc6a12812b921a397d029999952bc42c0c6831849b5ea1f1d974a017",
+  "stance_validation.csv": "a2b8f864282ae3ce7b5936ff8462fe34f3e2218fde29d432a2432a79de1cf207",
+  "stance_counterfactual.csv": "b281a19ce97cd3dc1ba5b23b10b12bbe064189047efbbd2a3818a30b411aa368",
+  "stance_offset.csv": "ef0db2075e3962439ed507c6c2c998e1fca8f9f4e6e6ab5989e55a79f1ef0699",
+  "stance_members.csv": "ecb72a0f7bb7f5266ef2bc2fc65bd56c0c96f60b40dca2a26d3459ce0bf3c63d",
+  "ordinary_by_question.csv": "5a74a8b9ba8c3c6bcf745bd762d5140ce5de7d118a1066d06c9a2b71df8eac5b",
+  "corrected\\members_100.csv": "484d32bdafeb4f75fc91a1bfeb6a25c8dfde8d3665abdcd09eb704f8aaf2664a",
+  "corrected\\members_101.csv": "b60ff922cf69648751e2ca499a7d4d05ddfa490ecc378800dd1767dea679f2d2",
+  "corrected\\members_102.csv": "971ac966bc44909a616c28d3d96fd667daa64e06a7eb300f940a515667e02b1f",
+  "corrected\\members_103.csv": "5cd0cc05a82639f601ed057af1efd7af661c0f5d93e7a9645c0da84fe246d9d9",
+  "corrected\\members_104.csv": "c353ab51dce47fba62d65feae58160c673d06427404417319a9e2eef974b4ebb",
+  "corrected\\members_105.csv": "a030389e9ae7042db36fc939136e8156b180ac5c9abe7475c7d6d5231d32d8d2",
+  "corrected\\members_106.csv": "4d74bbf55367d599da9d9af572939671e001fa39fa1bace19a5653cbda6bb0df",
+  "corrected\\members_107.csv": "8388ee50ac7ff7d3a604f9fcca22e019f22678586691c548d9e4a95811bdc744",
+  "corrected\\members_108.csv": "2bbe17414233363ad9b8e38d88474360c37afe0ec4f1de79739744b2406a8edb",
+  "corrected\\members_109.csv": "ad1234886d1241cf40dfd1469987fbb72f541c32eb28af12bcf6ce9b73f59df8",
+  "corrected\\members_110.csv": "0a39840f970ac033dffcccc91120bf37a2b3f8672eeedddf58a4708c95389257",
+  "corrected\\members_111.csv": "461c5968cf29c127fa3d5bc9f8eeddb5061f213f7c4f00779aba63f4351e6952",
+  "corrected\\members_112.csv": "5e7117b446927e8125ca40de690eb93448d110e9c92364f9c7ba9569d5c765ad",
+  "corrected\\members_113.csv": "c7f147a08c50468fcd97bc0aab31fcce454dca0c36b754db938fc82c8d085135",
+  "corrected\\members_114.csv": "cdf61214dab82bc34a2e511e67e2df709babce1d6edef3338eae0c8aac70f9a8",
+  "corrected\\members_115.csv": "44758070ac54ce430544b9274a8874ff897204a8a83cd236cd11e38a9a756281",
+  "corrected\\members_116.csv": "584911f6343e1d8cae1d58e945cb69ec4e23cca69972e6431de42aac52814203",
+  "corrected\\members_117.csv": "3227e47b413c2487f2521e552f5fe42443ba4cb3006af0e968f3c79130d104be",
+  "corrected\\members_118.csv": "640865267fe8299c9a028469a1c26dfd32f002e0f022a2092add6bbdcb13cad8",
+  "corrected\\members_80.csv": "e26682f880b128b36388412a8b6e4c36e9dd8b16d301d8c350b50ccc7b31c606",
+  "corrected\\members_81.csv": "1df3455653a142abd02975bbaa950a4b3dd08883975a648187b7c6adb58b04f2",
+  "corrected\\members_82.csv": "5300f19123a43ec154349ee6438a7b8db8098b0273ad9fc71cd4cb58abfcce23",
+  "corrected\\members_83.csv": "c834f836b72dea48d0a850d4c385da6a7d90fec3571d1f56c887d0b8a8bdbd10",
+  "corrected\\members_84.csv": "cd907297e56ab6aa758a1b856da3704299e7107e21acf8e60b4da634fd3019e9",
+  "corrected\\members_85.csv": "368a210a4c960ef543e7cec5e4b19057165b894f5ce57a4c82a53dab2c5942e5",
+  "corrected\\members_86.csv": "05363d5fceaddd579ac7fd82c6f44ad4ae16721d9e3eaa9a2cc6a2010cd7f2c4",
+  "corrected\\members_87.csv": "4686c3490e59e224043906bf8c0095ea7010edaec5c5600f846ff2ea9d72b0f3",
+  "corrected\\members_88.csv": "c1d23e564a92104e12c001f7648e4b9540efb83a07bb3dbe2d25e85d1a1185a0",
+  "corrected\\members_89.csv": "1513dcf612ff21397390bc05da3835f91c93ee09d0642d71d1041b36fc6a5ad0",
+  "corrected\\members_90.csv": "543b11fe0c6460d06c848e95ea8fd1699134d3269ec404e68d92c368d94ad802",
+  "corrected\\members_91.csv": "6fa789a9d64e17dc617b7d44ccff0d5800c75f404f917d2be0b568df4571453d",
+  "corrected\\members_92.csv": "2a72f5a62e88cc634adc0f0197ccee87621e57de26271f8ec4a1570d6ff04e9c",
+  "corrected\\members_93.csv": "743c51062cbab035dd13ed3ae916548e265cd1f670d5b48a83fa4a3face7b0fd",
+  "corrected\\members_94.csv": "257a7ee7b11281b653087f609855b7e810596e1af1bbc917ca56891a920d9ba9",
+  "corrected\\members_95.csv": "34f22af8969a81e2f59af0ab0ac8a2bcdc625a3d97ab1880cd5c32302185f990",
+  "corrected\\members_96.csv": "53155be026edc6c74a7671693892bcae5c383770276d63115dfbf8355eb59935",
+  "corrected\\members_97.csv": "7a4ccb5dd5a8e6e712521d1c508309d5ffa9fb0ee4b99a28667dff99bcbdc599",
+  "corrected\\members_98.csv": "62f43deef2d22135a7b0dd2de1244b642d2b2c3fbc22941a0f4614bc182a35e1",
+  "corrected\\members_99.csv": "bf15bebfc18dac15f6e427c6bee2b4933e0f3d069191c67995f2601fed4b03f8",
+  "corrected\\ordinary_100.csv": "43c8d04fc1770e3aec7e27e94cefd2ad82ef3018df40dea9a72336f4ceb1333e",
+  "corrected\\ordinary_101.csv": "8673196835155dbaf51abc45ead41c8038139356ae977b580691062f51d712bb",
+  "corrected\\ordinary_102.csv": "c2ac49b400e488beda43060511c54b3b8f179f9fda1abf9191e3bdaa5254eb6b",
+  "corrected\\ordinary_103.csv": "2c9ba440ac8935993b506fba4a98eaafa55e06c75aac04327b89e05a932ff5a0",
+  "corrected\\ordinary_104.csv": "a68968e5c7ff40e7cf065ddcf90aa2e810a2df62c207b7bab09a393a14d0761d",
+  "corrected\\ordinary_105.csv": "7bfa60267ad1a47574c90ec99fbe613ad7e1e99eee83634b05e4dcc99e1d4b75",
+  "corrected\\ordinary_106.csv": "ced12bde8fd9e9fab32baf570b5a2b783f3e1dd868e0c342a072a04acbd168ca",
+  "corrected\\ordinary_107.csv": "d345b06a13c9a084a9643d13b836e4379c50a41bbac0ff5bd0c0e99e7d62e2f6",
+  "corrected\\ordinary_108.csv": "343eb3b85fabfa09a108986585771c43dc137bcd8b797a1f2780d1d9164c4133",
+  "corrected\\ordinary_109.csv": "7ce943da9d3f40d2fa0c8f8496f149afa813589358761a8112a4509467d320ff",
+  "corrected\\ordinary_110.csv": "16c776742221e243607b7129eedc5aba833da981d8610a6fc0177baf21259911",
+  "corrected\\ordinary_111.csv": "b85c2e6f10fc64627689dbe8ed01eff74be5791bd3f85318c7571fd9ab391cc9",
+  "corrected\\ordinary_112.csv": "50b9cc6d6670621e55c1c2ebae3d94c86be80c8d4377bc81f965213ab8f4c2c3",
+  "corrected\\ordinary_113.csv": "ffbfe1df4962750e6ba335ef80e7fe0e3495affe997788b6d0fd09705bae297d",
+  "corrected\\ordinary_114.csv": "a59713f9d7f89c9061da04de137130acf93f72fd5b10951fc9e7175e87e7d603",
+  "corrected\\ordinary_115.csv": "c786d5a0b10d6844e0993e6aeea27b81fda28bd338626bfd16c6acd628d00cf2",
+  "corrected\\ordinary_116.csv": "35ff003a9ee8f47de6c76dda22fbbf77541d18ca726637f3bead075ee17cd88c",
+  "corrected\\ordinary_117.csv": "93049e3d39f370975ebe06f190aca3911d92e8ab0c708a599b9ffbb9f971dedd",
+  "corrected\\ordinary_118.csv": "13d54d86db22680f85167af13b565a8a942fbb9441ae488432b0cf242e915c20",
+  "corrected\\ordinary_2023.csv": "46e0f6f6a81cf78471f23f1f76edc78e56630bfe7e3c37c4f3a20b484f35de57",
+  "corrected\\ordinary_80.csv": "8fecc502cc508ae93299b19619c10d2eb1d38e2a54236db3380638df23aac734",
+  "corrected\\ordinary_81.csv": "b7a742a25c0b3b09e4c4699bcff2084f9a5fd342c52d33e7cbb3fcedbc4eea24",
+  "corrected\\ordinary_82.csv": "6fd1891d98eeb00dcbf0165e0a362e640ffe7b875435726a7ce2a2a7baed3cad",
+  "corrected\\ordinary_83.csv": "6f148e968ebee3e6bb05b964798c40194964a893508fb5b71ff0d6ff62624710",
+  "corrected\\ordinary_84.csv": "11d0e7ee60ab73f81c88575c0a9ea14a54f7ef9cbd1e1f7be277171828fc026d",
+  "corrected\\ordinary_85.csv": "fc1bb9ecfc7230e85b499b6ef766b42a6bcb9deaaf67a7991815db11a85eae70",
+  "corrected\\ordinary_86.csv": "95e6539090cc162292fe3c31021407c97064f11ed449924d2eb5abafe50d9082",
+  "corrected\\ordinary_87.csv": "2c1b23b28edda7a9bd7e9b0b8a9924d529e8f5f3a18a7721c1625c5391530097",
+  "corrected\\ordinary_88.csv": "bcdf8c0f67284f287997a834ee451ad2ae8002dd5a1e9d0fd8ac66b3bb8181e1",
+  "corrected\\ordinary_89.csv": "2fedd65f7ac827221b5d1b43987da97b08e1eed840ba0037cb487126fa6b3587",
+  "corrected\\ordinary_90.csv": "63f8fd7fe8cd02d7163e7d6f2bf24c1a6b8a36b9eafdff66be54d2c0fa0b803f",
+  "corrected\\ordinary_91.csv": "119441453528e1cdb4a53765075ed3fd38df51611e719a618f71bab57b545936",
+  "corrected\\ordinary_92.csv": "9efe5b60ae1676a49e8693555c523371b96a2d8037a76b60de07bb27741c5ff1",
+  "corrected\\ordinary_93.csv": "f4bf2fcac5b408b3de0244945dccfd81992170c7455f4f2d71ee483ffdb1c499",
+  "corrected\\ordinary_94.csv": "8e7811998237d365b4550b0f1bbd0fa47df5a7c9c62a73e10cf41b77062103d9",
+  "corrected\\ordinary_95.csv": "eacc1f744a56fe63da4b6d01a865fe898391ac4777d23477b2f0739acc9cb124",
+  "corrected\\ordinary_96.csv": "4ff4653647d1e218c391f56178aa754be7480d19a2fd4b726c0cfd9e1b8c9ad4",
+  "corrected\\ordinary_97.csv": "d37c91dff8c4e2941d1a8411737bbaef2b242b0c09f073bdde17e78f3e980d08",
+  "corrected\\ordinary_98.csv": "0cb9d8474b1aae9a44f7646cc8bfadbc82540a68430f1f191b6c7fc6b5ed2351",
+  "corrected\\ordinary_99.csv": "16ed70b3428a4b6c60a6f98f23e9525b99625859025389376e110cd9ededc1b0",
+  "r3\\judged_m1.csv": "f5a60a2ed1442a5c4b0779d286f7a7f746a3b33ce4edd489e642b9a2bf9ce8b1",
+  "r3\\judged_m4_validation.csv": "0694c5143790e300087d2223f8fae68069cfad346c7d0927e3fbdf0d6ee8ffdd",
+  "r3\\judged_placebo_formality_ordinary.csv": "9a408ee55ca1df6a981371c20cdedb59e9fa03eca20f2f326f7793028d9ecdd2",
+  "r3\\judged_placebo_formality_yearswap.csv": "88f6a85fe160d281a26d66135dc624f2872c173510368d60b4de3a2425cf1f50",
+  "r3\\judged_placebo_tone_ordinary.csv": "b1aef97ac9f4c19de6fea12bfbd7e18bbb5b1bb5edb32f2e9f29c3e2e8d8f15d",
+  "r3\\judged_placebo_tone_yearswap.csv": "5654e64a07ce295e8c9d9cda441d1469799af4e5b3acb0b0220f28ab40cb27e5",
+  "r3\\m2_projections.csv": "a08aec97aec8bd4eb6805ca6e7c3abddf12ea2ac4e3f2e674a30f0d0561bb16b",
+  "r3\\r1_projections.csv": "59a3568570b62b6dd743590ce6a7e8964a81b9809e49dfc31dbfca9531ad95b6",
+  "r3\\r3_baselines.csv": "a72c25d31ee3ae3883dd582dc84f369b0440f5be71020c8bcb8cd141e0c24420"
+ },
+ "external_inputs_sha256": {
+  "congress_map\\results\\temporal_member_scores.csv": "c59b040d46f9fb9476baebe898822abb27b5cd809e0ea9f5eba0f09919627a4d",
+  "congress_map\\results\\vectors.pt": "0f019f27ae52f4a318687b4f365461c56fb93dc6c1201a9a240ff2da912bff41",
+  "kim\\data\\HSall_members.csv": "d78f55120b59534e99f30541469325059f953b210f0ddb6ebb54601c9303c0f6",
+  "kim\\1_data_question_bank.json": "114ac5e0d2001f8cd0cc9c9cd3a1c572c7fc5764d6e9d59ba5b8f79e0adbbf62",
+  "data_generation\\trait_data_extract\\data_economic.json": "d70206288ed303efa94594b661ddcd4620bc2e05b0d6f8824f78efeafe2a4c23",
+  "data_generation\\trait_data_extract\\data_social.json": "c80ca786c45960c505604cd2ba3dff3a8b0375e15b8b7f11fedb7bba5e29ec0d",
+  "kim\\data\\voteview\\H100_rollcalls.csv": "5280d082668482236360ad677c35f404fd7466ccc5ce86aa2cce093aa7251411",
+  "kim\\data\\voteview\\H100_votes.csv": "a962dbbfc237ff02879269fe4d81509254c26f4a8ea2f2fd06029f94fa99e9db",
+  "kim\\data\\voteview\\H106_rollcalls.csv": "fe5a1c2d8b4ac3efc4a61fa33378fdd04ee44e6f2ab51fbc23ed3dcaf7ce4b39",
+  "kim\\data\\voteview\\H106_votes.csv": "f1b7db30a9745ebc97e893cb4b1e52bdd537daa9dc023109de2cfc21713b1c0d",
+  "kim\\data\\voteview\\H112_rollcalls.csv": "4c00b2d627d5c5f294131bd99160e2d74c5a6fcd4e2d84e56bc6063c9c68e64e",
+  "kim\\data\\voteview\\H112_votes.csv": "f3e9f88f7d815f1474ceddc5646a60556a18f34baec233b3b698a294799a3af5",
+  "kim\\data\\voteview\\H118_rollcalls.csv": "24c1183909802e1f79ca3ebf07a29f933559e92458dc6c726bc35df1f8a61b0b",
+  "kim\\data\\voteview\\H118_votes.csv": "8a6e648210e9b011f248d7b6f7d3d1e86a274f99e8307414e3776712636c61de",
+  "kim\\data\\voteview\\HSall_members.csv": "d78f55120b59534e99f30541469325059f953b210f0ddb6ebb54601c9303c0f6",
+  "kim\\data\\voteview\\S100_rollcalls.csv": "e1cb13d446cdbd241a3b832342ce659d3085ab164eb8fa5ebfd7016cd558dbf4",
+  "kim\\data\\voteview\\S100_votes.csv": "e9cd1a41aa3e83c1d7b19795f655899452d1982b6a5d3149894cea4d1a191a5e",
+  "kim\\data\\voteview\\S106_rollcalls.csv": "405085c20757e9cf6d1492c3d2c83bf34fb5ab51cf9485e4b1ca4c971fea264f",
+  "kim\\data\\voteview\\S106_votes.csv": "87af64b8396fb8eb6b70aa9fb425a8131e18c8660706bd15dd16f8d5faa86c7e",
+  "kim\\data\\voteview\\S112_rollcalls.csv": "43edbb1ece28bd0ab43d3b0830e7f59527ff8bf095c4148f6f8983b5f58e9575",
+  "kim\\data\\voteview\\S112_votes.csv": "5bd0494238693d23c899b405b291b65e9400db206daadc347e486c934eb27c03",
+  "kim\\data\\voteview\\S118_rollcalls.csv": "c49916c791c9c09cb39115064f5365b0926cbf58f0c52dad44140fc4a5d23884",
+  "kim\\data\\voteview\\S118_votes.csv": "7de3f3aece20cc582284bd3d5c1f9d1694c99011dafe936abc528c7d232f87bb"
+ },
+ "code_sha256": {
+  "04_analyze.py": "08fa279a0f21dc2522057b0846360093220a2e6907efa654fc02526cd0740a30",
+  "10_analyze_offset.py": "3056e05a54ee889e4c2f11bc7acac45903cf71fad4753cfc19fe6f40160f0a25",
+  "11_dynamics.py": "4db59a98f89cf337e4e074c365bfeaa9d4202f118cbfd090dd448cdf56261f7a",
+  "19_rep_and_time.py": "0cc0fbce0480aac6ca825a8393010292dae80332e58f34cb8398063a269ec27b",
+  "21_niche.py": "cbd9d18127ab79e0f22f6cd44da1044df2411260637ba9a482dc332451e8942b",
+  "24_output_econ_magnitude.py": "e05e2e5bdb9aea6dbb4e5cd577853d9fc5482b1482712e85f44361126a0d805e",
+  "26_analyze_mech_robust.py": "9bc13744ede67cbc630f1339ee9577491d950bc9e1bd9d3f4eaaa045ffa0ecc4",
+  "common.py": "60e07dd6e06fc9299d606c03e64f89c1454b9dcc2b9b55edd505b0e737577c11",
+  "reproduce_core.py": "835d92318f27f8481eda422a7cc8b2a3b96667d582b032b6055e4d6b70311f3c"
+ },
+ "environment": {
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "statsmodels": "0.14.6",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "rerun_folder": "rerun_20261004_210806"
+}
