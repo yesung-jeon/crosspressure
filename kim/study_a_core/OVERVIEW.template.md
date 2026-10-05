@@ -1,0 +1,89 @@
+# Study A: the present-day lens in LLM persona maps of political ideology
+
+This folder continues Junsol Kim's `congress_map` (PR #1). His pipeline asks a language model to role-play every U.S. legislator
+from 1947 to 2023 and projects the model's internal state onto an economic and a social ideology direction. Study A asks whether
+such a map can be read as a history of American politics, and what has to be corrected before it can.
+
+## 1. Why this project
+
+Social scientists now use large language models (LLMs) to role-play people: survey respondents, voters, legislators, sometimes
+people from earlier decades. When the role-played people come from different periods, the comparison rests on an unstated
+assumption: the model represents each person by the standards of that person's time. The model, however, was trained on
+present-day text. Its default assistant position is more socially progressive than any human persona we tested. If the model
+draws earlier people through a present-day lens, comparisons across time will partly measure the calendar, not the people.
+
+Kim's map makes the question concrete. Read at face value, it suggests that polarization was driven by Democrats and that both
+parties were conservative in the 1950s. Roll-call records point the other way: the movement has been led by Republicans. Study A
+asks how much of that gap comes from the model.
+
+## 2. Research question and claim
+
+**Question.** Can an LLM's internal representations and outputs measure political ideology over time? How does the model's
+present-day vantage point distort the measure, and can the distortion be corrected?
+
+**Claim.** The model draws earlier people with a stereotype of their era: the further back a persona is placed, the more
+traditional (and the colder in tone) the model makes it. Comparisons across time therefore follow the calendar more than the
+record, and the distortion is larger than today's gap between the parties. Measuring each legislator against ordinary people of
+the same year removes most of it on the social dimension, but not on the economic dimension.
+
+## 3. Design and methods
+
+- **Model and measurement.** Qwen2.5-7B-Instruct (8-bit). Personas use Kim's wording (name, chamber, state, year; party is not
+  given). Ideology is measured two ways: (a) internal: the last-token state at layer 17 projected on Kim's economic and social
+  directions, relative to the model with no persona; (b) output: the model's written answers, scored by a different model
+  (Qwen2.5-3B) that sees only the question and the answer (validation AUC {{AUC_E}} economic, {{AUC_S}} social).
+- **Human benchmarks.** DW-NOMINATE and Nokken-Poole scores from Voteview; raw roll calls for four Congresses.
+- **Manipulations (prompt-level experiments).** The same legislator with only the year changed (own year, 1955, 1985, 2015);
+  named non-political people (nurses, teachers, accountants) placed in different years; the year expressed as a number, a decade,
+  an administration, or, as a control, the same digits given as an employee number; placebo dimensions (tone, formality); a second
+  question set (the original paper's 48 World Values Survey items).
+- **Correction.** Each legislator is measured against the mean of 30 ordinary people placed in the same year; eight alternative
+  reference groups test whether the choice of "ordinary people" matters.
+- **Estimation and reproducibility.** OLS with member fixed effects and clustered standard errors, recomputed by matrix algebra.
+  Pass/fail criteria were written before the runs. The 36 numbers the claim rests on are sealed in `release_core/RELEASE.json`
+  with hashes of every input; `release_core/reproduce_core.py` reproduces them from the intermediate files.
+
+## 4. Main findings (sealed values)
+
+1. **Era stereotype.** Moving the same legislator to 1955 makes the answers more socially traditional ({{Y1955}} on a 0-1 scale);
+   moving them to 2015 makes them more progressive ({{Y2015}}). Ordinary people show the same shift ({{ORD}} for 1955 vs 2023).
+   Decade and administration wording reproduce {{M2MIN}}-{{M2MAX}}% of the effect; the employee-number control reproduces {{EMP}}%,
+   so the model reacts to the meaning of the era, not the digits. Tone shifts as much as ideology ({{TONE_SD}} vs {{IDEO_SD}} SD),
+   formality hardly at all ({{FORM_SD}} SD). The pattern holds with the WVS questions (person-level r = {{WVS_R}}).
+2. **Consequence.** Within a member's career, the model's position drifts with the calendar ({{CAL_YEAR}} per year) rather than
+   with the member's changing record ({{REAL_NP}}). The Republicans' rightward movement on social issues disappears: the correlation
+   between the Republican mean and real ideology is {{REP_RAW}}.
+3. **Size.** Changing only the year moves a legislator by {{DW_UNITS}} DW-NOMINATE units, more than the 2023 party gap ({{GAP}}) and
+   several times the Republicans' real change since 1947 ({{REP_REAL}}). In the answers, the year effect is {{OUT_RATIO}} times the
+   party difference.
+4. **Correction.** Against same-year ordinary people the Republican movement returns (r = {{REP_CORR}}; {{BMIN}}-{{BMAX}} across
+   eight reference groups). The economic dimension cannot be corrected this way: internally the model moves earlier people left,
+   while their answers move toward the market ({{ECON_OUT}}).
+
+## 5. Why it matters
+
+- **For social science.** Any study that role-plays people from different periods with an LLM inherits this lens. A simple
+  correction exists for the social dimension (a contemporaneous reference group), and outputs should be checked against internal
+  measures before cross-time claims are made.
+- **For AI research.** Time is encoded in the model's political representations as a direction whose endpoint is the present. This
+  extends work on the "anachronistic prior" of language models from general knowledge to political representation and behaviour,
+  and measures how large it is.
+
+## 6. Scope and limits
+
+One model, run in 8-bit; the judge belongs to the same model family; no human coding of answers yet. Steering the model along the
+time direction moved answers no more specifically than random directions did, so causal claims rest on the prompt manipulations.
+The study does not claim that the model is "left-biased"; it shows how its position in time enters a measure.
+
+## 7. How the code maps to the argument
+
+| claim step | scripts (`kim/uncertainty_map/`) |
+|---|---|
+| era stereotype | `02_counterfactual.py`, `09_persona_offset.py`, `18_time_direction.py`, `25_mechanism_robustness.py`; analyses `04`, `10`, `19`, `26` |
+| consequence | `20_corrected_map.py`, `11_dynamics.py`, `21_niche.py` |
+| size | `01_generate_members.py`, `23_output_stance.py`, `24_output_econ_magnitude.py` |
+| correction | `20_corrected_map.py`, `21_niche.py`, `25_mechanism_robustness.py` (baseline groups) |
+
+Run everything after Kim's pipeline with `bash kim/study_a_core/run_core.sh`; `compare_to_seal.py` reports which sealed values a
+fresh run reproduces. Status: exploratory results, sealed and reproducible from intermediates; a fresh end-to-end run and other
+models are the next steps.

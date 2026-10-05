@@ -1,5 +1,7 @@
 # Study A core: from Junsol Kim's congress_map to the sealed core claims
 
+Project overview (problem, claim, methods, findings): `OVERVIEW.md`.
+
 One command after Kim's pipeline: `bash kim/study_a_core/run_core.sh` (int8; `QUANT=bf16 OUT=out_core_bf16` on a larger GPU).
 
 | stage | what | why it is needed (claim steps of manuscript/RESEARCH_DESIGN.md v2) |
