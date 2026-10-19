@@ -1,0 +1,3 @@
+# Keep every file byte-for-byte as committed: sha256 checks (SEAL.json, *.sha256, COPY_LEDGER.json) and the
+# byte-identity check in build_paper.sh compare exact bytes, so no line-ending conversion on checkout.
+* -text
