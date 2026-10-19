@@ -1,0 +1,196 @@
+{
+ "party_pct": {
+  "qwen": {
+   "Democrat": {
+    "xp": 0.297,
+    "yp": 0.333
+   },
+   "Republican": {
+    "xp": 0.733,
+    "yp": 0.697
+   }
+  },
+  "llama": {
+   "Democrat": {
+    "xp": 0.265,
+    "yp": 0.292
+   },
+   "Republican": {
+    "xp": 0.746,
+    "yp": 0.706
+   }
+  }
+ },
+ "qwen": {
+  "EL-SP": {
+   "placed": 13,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 10,
+   "placed_random": 3,
+   "confirmed_placed": 7,
+   "one_axis_placed": 2,
+   "n_one_axis": 2,
+   "n_confirmed": 7,
+   "mean_x_pct": 0.245,
+   "mean_y_pct": 0.208,
+   "map_quadrants": {
+    "EL-SP": 13,
+    "ER-SP": 1,
+    "EL-ST": 1
+   }
+  },
+  "EL-ST": {
+   "placed": 6,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 3,
+   "placed_random": 3,
+   "confirmed_placed": 1,
+   "one_axis_placed": 3,
+   "n_one_axis": 7,
+   "n_confirmed": 4,
+   "mean_x_pct": 0.431,
+   "mean_y_pct": 0.512,
+   "map_quadrants": {
+    "EL-ST": 6,
+    "ER-SP": 4,
+    "EL-SP": 4,
+    "ER-ST": 1
+   }
+  },
+  "ER-SP": {
+   "placed": 2,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 1,
+   "placed_random": 1,
+   "confirmed_placed": 0,
+   "one_axis_placed": 1,
+   "n_one_axis": 4,
+   "n_confirmed": 2,
+   "mean_x_pct": 0.683,
+   "mean_y_pct": 0.676,
+   "map_quadrants": {
+    "ER-ST": 11,
+    "ER-SP": 2,
+    "EL-ST": 1,
+    "EL-SP": 1
+   }
+  },
+  "ER-ST": {
+   "placed": 13,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 9,
+   "placed_random": 4,
+   "confirmed_placed": 7,
+   "one_axis_placed": 4,
+   "n_one_axis": 4,
+   "n_confirmed": 7,
+   "mean_x_pct": 0.748,
+   "mean_y_pct": 0.706,
+   "map_quadrants": {
+    "ER-ST": 13,
+    "ER-SP": 2
+   }
+  }
+ },
+ "llama": {
+  "EL-SP": {
+   "placed": 15,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 10,
+   "placed_random": 5,
+   "confirmed_placed": 7,
+   "one_axis_placed": 2,
+   "n_one_axis": 2,
+   "n_confirmed": 7,
+   "mean_x_pct": 0.194,
+   "mean_y_pct": 0.214,
+   "map_quadrants": {
+    "EL-SP": 15
+   }
+  },
+  "EL-ST": {
+   "placed": 5,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 4,
+   "placed_random": 1,
+   "confirmed_placed": 0,
+   "one_axis_placed": 2,
+   "n_one_axis": 7,
+   "n_confirmed": 4,
+   "mean_x_pct": 0.391,
+   "mean_y_pct": 0.489,
+   "map_quadrants": {
+    "EL-SP": 8,
+    "EL-ST": 5,
+    "ER-ST": 2
+   }
+  },
+  "ER-SP": {
+   "placed": 3,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 3,
+   "placed_random": 0,
+   "confirmed_placed": 1,
+   "one_axis_placed": 1,
+   "n_one_axis": 4,
+   "n_confirmed": 2,
+   "mean_x_pct": 0.747,
+   "mean_y_pct": 0.577,
+   "map_quadrants": {
+    "ER-ST": 10,
+    "ER-SP": 3,
+    "EL-SP": 2
+   }
+  },
+  "ER-ST": {
+   "placed": 14,
+   "n": 15,
+   "n_recalled": 15,
+   "placed_deepest": 9,
+   "placed_random": 5,
+   "confirmed_placed": 7,
+   "one_axis_placed": 4,
+   "n_one_axis": 4,
+   "n_confirmed": 7,
+   "mean_x_pct": 0.822,
+   "mean_y_pct": 0.758,
+   "map_quadrants": {
+    "ER-ST": 14,
+    "ER-SP": 1
+   }
+  }
+ },
+ "text_status": {
+  "EL-SP": {
+   "confirmed both": 7,
+   "confirmed one": 2,
+   "contradicted": 1,
+   "no evidence": 5
+  },
+  "EL-ST": {
+   "confirmed both": 4,
+   "confirmed one": 7,
+   "contradicted": 0,
+   "no evidence": 4
+  },
+  "ER-SP": {
+   "confirmed both": 2,
+   "confirmed one": 4,
+   "contradicted": 2,
+   "no evidence": 7
+  },
+  "ER-ST": {
+   "confirmed both": 7,
+   "confirmed one": 4,
+   "contradicted": 0,
+   "no evidence": 4
+  }
+ }
+}

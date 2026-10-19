@@ -1,0 +1,16 @@
+{
+ "sealed": "2026-10-19T16:07",
+ "note": "council N1/N2 descriptive checks (2026-10-19); reading rules fixed before computing in kim/review/council_2026-10-19/N1_N2_PLAN.md; resealed after adding the within-Congress correlations of the two axes (recall values unchanged)",
+ "previous_seal": {
+  "sealed": "2026-10-19T16:06",
+  "note": "council N1/N2 descriptive checks (2026-10-19); reading rules fixed before computing in kim/review/council_2026-10-19/N1_N2_PLAN.md",
+  "sha256": {
+   "benchmark_recall.py": "30bab79ba5a8d64449bc7fb64acda790817a5ff22acb16f4ef7de87216844761",
+   "benchmark_recall.json": "5a9d9e3c89079eaa4c17c919af349abe40bd148dba2af4192d07b95aeac388cc"
+  }
+ },
+ "sha256": {
+  "benchmark_recall.py": "6f9c8d000f745d0d38ed940d4b199200e823f5180930da20a955fe501efd7bee",
+  "benchmark_recall.json": "0286687ea30f6d78ee9bfcb530c527b7455fb3238f8ebbabd1d374f221a7e8cc"
+ }
+}

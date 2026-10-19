@@ -1,0 +1,31 @@
+row,econ_code,econ_quote,social_code,social_quote,source
+1,L,a moderate Democrat with strong labor ties,T,his conservative stances on social issues,out/s4b/wiki/row01.txt
+2,unclear,(only general label: one of the most vocal conservatives),unclear,,out/s4b/wiki/row02.txt
+3,unclear,(liberal on environmental issues: not the economic axis),T,was pro-life and supported prayer in public schools,out/s4b/wiki/row03.txt
+4,unclear,,unclear,,out/s4b/wiki/row04.txt
+5,R,"fiscal conservatism, which included opposition to social programs such as the New Deal and the Great Society",unclear,,out/s4b/wiki/row05.txt
+6,unclear,,unclear,,out/s4b/wiki/row06.txt
+7,R,"'Father of Reaganomics'; committed to the doctrine of supply-side economics (OMB, right after his House years)",unclear,(2013 amicus brief for same-sex marriage: 33 years after his House years),out/s4b/wiki/row07.txt
+8,unclear,(401(k) tax provisions; AEI event on controlling Social Security costs: direction not stated),unclear,,out/s4b/wiki/row08.txt
+9,unclear,,unclear,,out/s4b/wiki/row09.txt
+10,unclear,,unclear,,out/s4b/wiki/row10.txt
+11,L,considered a social conservative and fiscal progressive populist,T,"opposed to abortion, gay marriage ... largely on religious grounds",out/s4b/wiki/row11.txt
+12,mixed,principal sponsor of AmeriCorps; expand Head Start ... vote in 1993 against the Clinton economic plan,T,his anti-abortion stance; voting ... conservatively on social issues,out/s4b/wiki/row12.txt
+13,L,consistently opposed legislation to reduce government spending and cut taxes,P,high ratings from NARAL Pro-Choice America and Planned Parenthood,out/s4b/wiki/row13.txt
+14,R,Garn-St Germain Act ... partially deregulated the savings and loan industry,T,strongly pro-life,out/s4b/wiki/row14.txt
+15,R,board of the Committee for a Responsible Federal Budget (weak),P,pro-abortion rights Republican; voted against the Federal Marriage Amendment,out/s4b/wiki/row15.txt
+16,unclear,,unclear,,out/s4b/wiki/row16.txt
+17,L,voted against a bill to reduce spending on non-security items,P,ran on supporting marriage equality; opposed restricting federal funding of abortions,out/s4b/wiki/row17.txt
+18,L,Inspired by the legacy of the Great Society (weak),unclear,(only general label: conservative Democrat),out/s4b/wiki/row18.txt
+19,unclear,,mixed,derided ERA protesters ... later went on to support the Equal Rights Amendment,out/s4b/wiki/row19.txt
+20,L,focused efforts to fight poverty (as mayor; weak),P,co-sponsored a bill to repeal the Defense of Marriage Act,out/s4b/wiki/row20.txt
+21,L,voted for ... the Medicare program; called for a uniform nationwide unemployment insurance tax,unclear,,out/s4b/wiki/row21.txt
+22,unclear,(only general label: moderate Republican),unclear,,out/s4b/wiki/row22.txt
+23,unclear,(only general label: very conservative stances on nearly all issues),unclear,,out/s4b/wiki/row23.txt
+24,L,his support of the economic stimulus bill and health care bills,P,rebuked for participating in a rally supporting Planned Parenthood,out/s4b/wiki/row24.txt
+25,R,advocate of President Bush's plan for Social Security privatization (after Congress; consistent with budget role),unclear,,out/s4b/wiki/row25.txt
+26,unclear,(ADA 25% / ACU 69%: general ratings),T,views tracked ... socially conservative Catholic voters (weak),out/s4b/wiki/row26.txt
+27,R,Economic: 69% Conservative; interest in replacing the progressive income tax with a flat tax,T,opposes abortion except ...; Corker opposes same-sex marriage,out/s4b/wiki/row27.txt
+28,unclear,,unclear,,out/s4b/wiki/row28.txt
+29,unclear,(expert on the Social Security system: direction not stated),unclear,,out/s4b/wiki/row29.txt
+30,unclear,(only general label: reputation as a liberal),T,involved in the attempt to pass the Human Life Amendment ... strongly opposed abortion,out/s4b/wiki/row30.txt

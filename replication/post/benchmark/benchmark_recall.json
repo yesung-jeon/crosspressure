@@ -1,0 +1,98 @@
+{
+ "note": "descriptive benchmark checks added 2026-10-19 after sealing (council N1, N2); no tests",
+ "N1_dwnominate": {
+  "recall": {
+   "EL-SP": 0.554886521537749,
+   "ER-ST": 0.5296697626418989,
+   "EL-ST": 0.7346491228070176,
+   "ER-SP": 0.5792227204783259,
+   "aligned_pooled": 0.5429582621430314,
+   "cross_pooled": 0.6422222222222222,
+   "n": 10444
+  },
+  "dim2_sign_flipped_cells": 0,
+  "cells": 40,
+  "r_dim1_economic_within_cc": 0.9380860271063431,
+  "r_dim1_dim2_within_cc": -0.02291251635730903,
+  "r_dim2_abortion_within_cc": 0.23741598072857006
+ },
+ "N2_recognized": {
+  "qwen": {
+   "all_rows": {
+    "EL-SP": 0.7246410375173692,
+    "ER-ST": 0.7002063983488133,
+    "EL-ST": 0.2138157894736842,
+    "ER-SP": 0.14200298953662183,
+    "aligned_pooled": 0.7130827434708323,
+    "cross_pooled": 0.1711111111111111,
+    "n": 10444
+   },
+   "recognized_rows": {
+    "EL-SP": 0.778005639579595,
+    "ER-ST": 0.7670239596469105,
+    "EL-ST": 0.2247340425531915,
+    "ER-SP": 0.1469387755102041,
+    "aligned_pooled": 0.7730807295348509,
+    "cross_pooled": 0.18071593533487298,
+    "n": 8805
+   },
+   "recognition_rate": {
+    "aligned": 0.863192579936539,
+    "cross_pressured": 0.7697777777777778
+   }
+  },
+  "llama": {
+   "all_rows": {
+    "EL-SP": 0.8510884668828161,
+    "ER-ST": 0.8250773993808049,
+    "EL-ST": 0.19298245614035087,
+    "ER-SP": 0.15022421524663676,
+    "aligned_pooled": 0.8387844764461801,
+    "cross_pooled": 0.16755555555555557,
+    "n": 10444
+   },
+   "recognized_rows": {
+    "EL-SP": 0.8858709195115874,
+    "ER-ST": 0.8307818480043739,
+    "EL-ST": 0.1826086956521739,
+    "ER-SP": 0.15866558177379983,
+    "aligned_pooled": 0.8596010950332421,
+    "cross_pooled": 0.168141592920354,
+    "n": 9705
+   },
+   "recognition_rate": {
+    "aligned": 0.9361728093727117,
+    "cross_pressured": 0.904
+   }
+  },
+  "olmo": {
+   "all_rows": {
+    "EL-SP": 0.7876331635016212,
+    "ER-ST": 0.7856037151702786,
+    "EL-ST": 0.13925438596491227,
+    "ER-SP": 0.11360239162929746,
+    "aligned_pooled": 0.7866731754942641,
+    "cross_pooled": 0.124,
+    "n": 10444
+   },
+   "recognized_rows": {
+    "EL-SP": 0.8071188071188071,
+    "ER-ST": 0.8485732814526589,
+    "EL-ST": 0.13969732246798602,
+    "ER-SP": 0.12041392285983067,
+    "aligned_pooled": 0.8247721623860812,
+    "cross_pooled": 0.12903225806451613,
+    "n": 9164
+   },
+   "recognition_rate": {
+    "aligned": 0.8838174273858921,
+    "cross_pressured": 0.8542222222222222
+   }
+  }
+ },
+ "r_x_y_within_cc": {
+  "qwen": 0.7331460279492111,
+  "llama": 0.8809354048908882,
+  "olmo": 0.8725907766130254
+ }
+}

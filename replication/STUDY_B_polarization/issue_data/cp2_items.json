@@ -1,0 +1,58 @@
+{
+ "source": "Draft written by Claude on 2026-10-04 for CP2 (0_protocol/PROTOCOL_CP2_conflict_items.md). Not yet reviewed by a person. Each item is a yes/no question. econ_yes: +1 = answering yes is the economically left position (more government provision, regulation or redistribution), -1 = the economically right position (markets, less government), 0 = no economic content intended. soc_yes: +1 = yes is the socially progressive position, -1 = the socially traditional position, 0 = none intended.",
+ "items": [
+  {"id": "E1", "type": "econ_only", "econ_yes": 1, "soc_yes": 0, "q": "Should the federal minimum wage be raised substantially?"},
+  {"id": "E2", "type": "econ_only", "econ_yes": 1, "soc_yes": 0, "q": "Should public pension benefits be expanded and funded by higher payroll taxes?"},
+  {"id": "E3", "type": "econ_only", "econ_yes": 1, "soc_yes": 0, "q": "Should taxes on the wealthiest households be increased to fund public services?"},
+  {"id": "E4", "type": "econ_only", "econ_yes": 1, "soc_yes": 0, "q": "Should public colleges be tuition-free, paid for by taxpayers?"},
+  {"id": "E5", "type": "econ_only", "econ_yes": -1, "soc_yes": 0, "q": "Should corporate income taxes be cut to encourage investment?"},
+  {"id": "E6", "type": "econ_only", "econ_yes": -1, "soc_yes": 0, "q": "Should the postal service be privatized?"},
+  {"id": "E7", "type": "econ_only", "econ_yes": -1, "soc_yes": 0, "q": "Should unemployment benefits be reduced so that people return to work sooner?"},
+  {"id": "E8", "type": "econ_only", "econ_yes": -1, "soc_yes": 0, "q": "Should regulations on banks and financial firms be loosened?"},
+
+  {"id": "S1", "type": "soc_only", "econ_yes": 0, "soc_yes": 1, "q": "Should same-sex marriage be legal?"},
+  {"id": "S2", "type": "soc_only", "econ_yes": 0, "soc_yes": 1, "q": "Should transgender people be allowed to change the gender on their official documents?"},
+  {"id": "S3", "type": "soc_only", "econ_yes": 0, "soc_yes": 1, "q": "Should schools teach that different family structures, including same-sex parents, are equally valid?"},
+  {"id": "S4", "type": "soc_only", "econ_yes": 0, "soc_yes": 1, "q": "Should religion be kept entirely out of public school ceremonies?"},
+  {"id": "S5", "type": "soc_only", "econ_yes": 0, "soc_yes": -1, "q": "Should organized prayer be allowed in public schools?"},
+  {"id": "S6", "type": "soc_only", "econ_yes": 0, "soc_yes": -1, "q": "Should the Ten Commandments be displayed in public courthouses?"},
+  {"id": "S7", "type": "soc_only", "econ_yes": 0, "soc_yes": -1, "q": "Should divorce be made harder to obtain in order to protect marriage?"},
+  {"id": "S8", "type": "soc_only", "econ_yes": 0, "soc_yes": -1, "q": "Should abortion be banned except to save the mother's life?"},
+
+  {"id": "LP1", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should public health insurance cover contraception at no cost?"},
+  {"id": "LP2", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should the government fund universal childcare so that mothers can work full time?"},
+  {"id": "LP3", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should the government fund shelters and services for homeless LGBT youth?"},
+  {"id": "LP4", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should the law require employers to give same-sex spouses the same benefits as other spouses?"},
+  {"id": "LP5", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should public insurance pay for gender-affirming medical care?"},
+  {"id": "LP6", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should the government fund free family planning clinics, including abortion services?"},
+  {"id": "LP7", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should the government regulate businesses to forbid firing workers for being gay or transgender?"},
+  {"id": "LP8", "type": "concordant_LP", "econ_yes": 1, "soc_yes": 1, "q": "Should publicly funded daycare be open on equal terms to single parents and same-sex parents?"},
+
+  {"id": "RT1", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should welfare benefits for unmarried mothers be cut to encourage marriage?"},
+  {"id": "RT2", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should parents receive vouchers to send their children to private religious schools instead of public schools?"},
+  {"id": "RT3", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should private businesses be free to refuse to provide services for same-sex weddings?"},
+  {"id": "RT4", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should employers be allowed to leave contraception out of their health plans for religious reasons?"},
+  {"id": "RT5", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should government funding for family planning programs be eliminated?"},
+  {"id": "RT6", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should private adoption agencies be free to decline to place children with same-sex couples?"},
+  {"id": "RT7", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should taxes be cut for married couples in which one parent stays home with the children?"},
+  {"id": "RT8", "type": "concordant_RT", "econ_yes": -1, "soc_yes": -1, "q": "Should public funding for broadcasters be ended because of their programs on sexuality and gender?"},
+
+  {"id": "XA1", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should the government fund religious charities to run welfare programs?"},
+  {"id": "XA2", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should the government pay families a monthly allowance so that one parent can stay home with young children?"},
+  {"id": "XA3", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should the government strictly regulate media companies to limit sexual content?"},
+  {"id": "XA4", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should public funds support pregnancy centers that help women carry their pregnancies to term?"},
+  {"id": "XA5", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should the government ban gambling advertising to protect families?"},
+  {"id": "XA6", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should the law require internet companies to block pornography for all users?"},
+  {"id": "XA7", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should the government give large cash payments to families for each child born, to raise the birth rate?"},
+  {"id": "XA8", "type": "cross_LT", "econ_yes": 1, "soc_yes": -1, "q": "Should the government restrict stores from opening on Sundays?"},
+
+  {"id": "XB1", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should marijuana be legal and sold by private businesses with minimal government regulation?"},
+  {"id": "XB2", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should sex work between consenting adults be legal and treated as a private business?"},
+  {"id": "XB3", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should commercial surrogacy contracts be legal without government limits?"},
+  {"id": "XB4", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should the government stop licensing marriage and leave it to private contracts between any consenting adults?"},
+  {"id": "XB5", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should gambling be fully legal and left to the free market?"},
+  {"id": "XB6", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should drug use be decriminalized, with drugs sold by licensed private companies?"},
+  {"id": "XB7", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should pornography between consenting adults be legal and free of government regulation?"},
+  {"id": "XB8", "type": "cross_RP", "econ_yes": -1, "soc_yes": 1, "q": "Should companies be free to sell fertility and egg-freezing services without government restrictions?"}
+ ]
+}

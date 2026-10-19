@@ -1,0 +1,54 @@
+{
+ "qwen": {
+  "n_members": 2407,
+  "main": {
+   "EL-SP": 4,
+   "EL-ST": 0,
+   "ER-SP": 510,
+   "ER-ST": 1893
+  },
+  "median_origin": {
+   "EL-SP": 878,
+   "EL-ST": 229,
+   "ER-SP": 282,
+   "ER-ST": 1018
+  },
+  "agreement_main_vs_median": 0.40963855421686746,
+  "main_by_party": {
+   "Democrat": {
+    "EL-SP": 4,
+    "ER-SP": 406,
+    "ER-ST": 952
+   },
+   "Republican": {
+    "EL-SP": 0,
+    "ER-SP": 104,
+    "ER-ST": 941
+   }
+  }
+ },
+ "llama": {
+  "n_members": 2747,
+  "main": {
+   "EL-SP": 0,
+   "EL-ST": 0,
+   "ER-SP": 0,
+   "ER-ST": 2747
+  },
+  "median_origin": {
+   "EL-SP": 1038,
+   "EL-ST": 251,
+   "ER-SP": 194,
+   "ER-ST": 1264
+  },
+  "agreement_main_vs_median": 0.46013833272661087,
+  "main_by_party": {
+   "Democrat": {
+    "ER-ST": 1347
+   },
+   "Republican": {
+    "ER-ST": 1400
+   }
+  }
+ }
+}

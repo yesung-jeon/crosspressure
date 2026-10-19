@@ -1,0 +1,39 @@
+{
+ "olmo": {
+  "n": 10444,
+  "agreement": 0.6439103791650709,
+  "confusion_vote_rows_map_cols": {
+   "EL-SP": {
+    "EL-SP": 3401,
+    "EL-ST": 252,
+    "ER-SP": 186,
+    "ER-ST": 479
+   },
+   "EL-ST": {
+    "EL-SP": 495,
+    "EL-ST": 127,
+    "ER-SP": 61,
+    "ER-ST": 229
+   },
+   "ER-SP": {
+    "EL-SP": 290,
+    "EL-ST": 82,
+    "ER-SP": 152,
+    "ER-ST": 814
+   },
+   "ER-ST": {
+    "EL-SP": 397,
+    "EL-ST": 186,
+    "ER-SP": 248,
+    "ER-ST": 3045
+   }
+  },
+  "recall_by_vote_quadrant": {
+   "EL-SP": 0.7876331635016212,
+   "EL-ST": 0.13925438596491227,
+   "ER-SP": 0.11360239162929746,
+   "ER-ST": 0.7856037151702786
+  },
+  "known_only_agreement": 0.6788520296813618
+ }
+}

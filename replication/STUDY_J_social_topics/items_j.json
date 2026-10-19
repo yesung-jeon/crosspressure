@@ -1,0 +1,38 @@
+{
+  "status": "Study J items, written by Claude 2026-10-15. Economic phrases and the four original social topics are copied verbatim from STUDY_E_alignment/items_draft.json (approved 2026-10-14). Six new social topics added under the author's instruction to add social items and proceed (2026-10-15); the new phrases were not separately reviewed by a person before the run (PLAN section 5).",
+  "note": "Options are composed by code as '<economic phrase> and <social phrase>' so that party-like and reversed items use identical phrases. Phrases are present-tense policy actions of similar length. Single-issue items use each phrase pair alone.",
+  "kang_coding_rule": "legal_regulation = the state permits, forbids or defines a behaviour or status by law (ban, allow, define, protect legal access, require, let); personal_traditionalism = the state promotes, teaches or funds a way of life without legal compulsion (encourage, promote, teach, fund). Coded by Claude from the phrase verbs before any data.",
+  "economic": {
+    "health":     {"L": "expand public health insurance to cover everyone",            "R": "replace public health insurance with private market plans"},
+    "wage":       {"L": "raise the federal minimum wage to 17 dollars an hour",         "R": "keep the federal minimum wage at its current level"},
+    "taxes":      {"L": "raise income taxes on households earning over 400,000 dollars", "R": "cut income taxes for every bracket, including the highest"},
+    "welfare":    {"L": "expand food assistance and the child tax credit",              "R": "cut food assistance and add stricter work requirements"},
+    "unions":     {"L": "make it easier for workers to form unions",                     "R": "pass right-to-work laws that limit union power"},
+    "regulation": {"L": "strengthen federal regulation of banks and large corporations", "R": "roll back federal regulations on business"}
+  },
+  "social": {
+    "abortion":    {"P": "protect legal access to abortion",                                            "T": "ban most abortions",                                                      "kang_split": "legal_regulation",        "origin": "Study E"},
+    "marriage":    {"P": "protect same-sex marriage and adoption",                                      "T": "define marriage as only between a man and a woman",                       "kang_split": "legal_regulation",        "origin": "Study E"},
+    "gender":      {"P": "promote equal roles for women in work and public life",                        "T": "encourage traditional roles for women in the family",                      "kang_split": "personal_traditionalism", "origin": "Study E"},
+    "religion":    {"P": "keep organized prayer out of public schools",                                  "T": "allow organized prayer in public schools",                                 "kang_split": "legal_regulation",        "origin": "Study E"},
+    "transgender": {"P": "let transgender people use public facilities matching their gender identity",  "T": "require people to use public facilities matching their sex at birth",      "kang_split": "legal_regulation",        "origin": "Study J"},
+    "exemption":   {"P": "require businesses to serve same-sex couples despite religious objections",    "T": "let businesses refuse services that conflict with their religious beliefs", "kang_split": "legal_regulation",        "origin": "Study J"},
+    "sexed":       {"P": "fund comprehensive sex education in public schools",                           "T": "fund abstinence-focused sex education in public schools",                  "kang_split": "personal_traditionalism", "origin": "Study J"},
+    "family":      {"P": "treat all family forms equally in public programs",                            "T": "promote marriage and two-parent families in public programs",              "kang_split": "personal_traditionalism", "origin": "Study J"},
+    "values":      {"P": "teach respect for diverse ways of life in public schools",                     "T": "teach traditional moral values in public schools",                         "kang_split": "personal_traditionalism", "origin": "Study J"},
+    "faith":       {"P": "keep religious values out of public policy debates",                           "T": "give religious values a voice in public policy debates",                   "kang_split": "personal_traditionalism", "origin": "Study J"}
+  },
+  "families": {
+    "party_like": "A/B = (econ L + social P) vs (econ R + social T)",
+    "reversed":   "A/B = (econ L + social T) vs (econ R + social P)",
+    "single":     "A/B = L vs R (economic issue) or P vs T (social issue); both orders"
+  },
+  "vector_definition_check": "All ten social topics fall inside the trait definition used to extract Kim's social direction (data_social.json: abortion, same-sex marriage and adoption, roles of women, transgender recognition, religious objections vs LGBTQ rights, religion in public life, traditional family structures, changing moral norms). Topics outside it (immigration, guns, drugs) are not used.",
+  "review_checklist": [
+    "Each phrase is a realistic U.S. policy position stated neutrally (no loaded words).",
+    "P/T phrases of an issue have similar length and specificity.",
+    "Every economic x social pair reads as a coherent package in both families.",
+    "No phrase signals party identity by name.",
+    "Kang split follows the verb rule above (5 legal regulation, 5 personal traditionalism)."
+  ]
+}

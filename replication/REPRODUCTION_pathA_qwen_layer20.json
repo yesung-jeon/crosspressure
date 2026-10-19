@@ -1,0 +1,243 @@
+{
+ "path": "A",
+ "models": [
+  "qwen"
+ ],
+ "overall": "FAIL",
+ "rows": [
+  {
+   "row": "qwen A3 r(x, DW-NOMINATE dim1)",
+   "act": 1,
+   "sealed": 0.7134447769271385,
+   "reproduced": 0.7107261602503053,
+   "abs_diff": 0.002718616676833152,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A4 r(x, economic scale)",
+   "act": 1,
+   "sealed": 0.7685695332900105,
+   "reproduced": 0.7670644591573261,
+   "abs_diff": 0.0015050741326844141,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A4 r(y, abortion scale)",
+   "act": 1,
+   "sealed": 0.6124936815298856,
+   "reproduced": 0.6062343220694428,
+   "abs_diff": 0.006259359460442759,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A6 party gap x",
+   "act": 1,
+   "sealed": 1.2526133787583067,
+   "reproduced": 1.251484898197618,
+   "abs_diff": 0.001128480560688594,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A6 party gap y",
+   "act": 1,
+   "sealed": 0.474240458609245,
+   "reproduced": 0.4690729143594468,
+   "abs_diff": 0.005167544249798206,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall EL-SP",
+   "act": 2,
+   "sealed": 0.7246410375173692,
+   "reproduced": 0.7176933765632237,
+   "abs_diff": 0.0069476609541454515,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall ER-ST",
+   "act": 2,
+   "sealed": 0.7002063983488133,
+   "reproduced": 0.696078431372549,
+   "abs_diff": 0.0041279669762642746,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall EL-ST",
+   "act": 2,
+   "sealed": 0.2138157894736842,
+   "reproduced": 0.22149122807017543,
+   "abs_diff": 0.007675438596491224,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall ER-SP",
+   "act": 2,
+   "sealed": 0.14200298953662183,
+   "reproduced": 0.1554559043348281,
+   "abs_diff": 0.013452914798206261,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed EL-SP (/15)",
+   "act": 2,
+   "sealed": 13,
+   "reproduced": 13,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed ER-ST (/15)",
+   "act": 2,
+   "sealed": 13,
+   "reproduced": 13,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed EL-ST (/15)",
+   "act": 2,
+   "sealed": 6,
+   "reproduced": 6,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed ER-SP (/15)",
+   "act": 2,
+   "sealed": 2,
+   "reproduced": 2,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A'3 H3 consistency",
+   "act": 3,
+   "sealed": -0.0867401353993813,
+   "reproduced": -0.08709206233652533,
+   "abs_diff": 0.00035192693714403145,
+   "sealed_ci95": [
+    -0.09544967345953694,
+    -0.0779748674781941
+   ],
+   "reproduced_ci95": [
+    -0.09567333138826478,
+    -0.07833099272611005
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A'4 H4 quadrant hit",
+   "act": 3,
+   "sealed": -0.12692307692307692,
+   "reproduced": -0.14615384615384616,
+   "abs_diff": 0.019230769230769246,
+   "sealed_ci95": [
+    -0.19230769230769232,
+    -0.06538461538461539
+   ],
+   "reproduced_ci95": [
+    -0.2076923076923077,
+    -0.08461538461538462
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "FAIL"
+  },
+  {
+   "row": "qwen A'1 H1 choice entropy",
+   "act": 3,
+   "sealed": 0.005738252947396386,
+   "reproduced": 0.005096745598561489,
+   "abs_diff": 0.0006415073488348971,
+   "sealed_ci95": [
+    -0.0023268688337787454,
+    0.013610551132814612
+   ],
+   "reproduced_ci95": [
+    -0.002858805877847852,
+    0.012788114730600129
+   ],
+   "verdict_sealed": false,
+   "verdict_reproduced": false,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B1 reversed - party-like entropy, Democrat",
+   "act": 4,
+   "sealed": 0.1820423303094506,
+   "reproduced": 0.1820423303094506,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.17202234147195355,
+    0.1921973680661756
+   ],
+   "reproduced_ci95": [
+    0.17202234147195355,
+    0.1921973680661756
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B2 reversed - party-like entropy, Republican",
+   "act": 4,
+   "sealed": 0.14831537871841083,
+   "reproduced": 0.14831537871841083,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.14099014773787175,
+    0.155754196083401
+   ],
+   "reproduced_ci95": [
+    0.14099014773787175,
+    0.155754196083401
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B5 economic share, Democrat (descriptive)",
+   "act": 4,
+   "sealed": 0.84,
+   "reproduced": 0.84,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B5 economic share, Republican (descriptive)",
+   "act": 4,
+   "sealed": 0.898,
+   "reproduced": 0.898,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen no-persona reversed - party-like (two-way item bootstrap)",
+   "act": 4,
+   "sealed": 0.17215659815865628,
+   "reproduced": 0.17215659815865628,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.03713324595204439,
+    0.3094128031032714
+   ],
+   "reproduced_ci95": [
+    0.03713324595204439,
+    0.3094128031032714
+   ],
+   "verdict_sealed": "+excl0",
+   "verdict_reproduced": "+excl0",
+   "status": "PASS"
+  }
+ ],
+ "patterns": [
+  {
+   "model": "qwen",
+   "aligned_recall_gt_cross_and_gap_x_gt_y": true
+  }
+ ]
+}

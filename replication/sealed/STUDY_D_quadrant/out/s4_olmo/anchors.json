@@ -1,0 +1,33 @@
+{
+ "olmo": {
+  "layer": 15,
+  "n_rows": 21288,
+  "recall": 0.8483183013904547,
+  "recall_1947": 0.7129798903107861,
+  "recall_2023": 0.9223826714801444,
+  "r_x_dim1_by_congress_mean": 0.6999169807498496,
+  "r_x_dim1_80": 0.3041029088742054,
+  "r_x_dim1_118": 0.8928828915041261,
+  "r_y_dim1_pooled_within_cc": 0.7159123058429584,
+  "r_x_economic_scale_within_cc": [
+   0.7901144521524148,
+   17921
+  ],
+  "r_y_abortion_scale_within_cc": [
+   0.6857408699215862,
+   9164
+  ],
+  "r_y_economic_scale_within_cc": [
+   0.7345780594887754,
+   17921
+  ],
+  "r_x_abortion_scale_within_cc": [
+   0.6857476674139275,
+   9164
+  ],
+  "party_gap_x_d": 1.289790394825292,
+  "party_gap_y_d": 0.9700053279616045,
+  "party_gap_x_cohen_d_pooled_A15": 1.658937870755078,
+  "party_gap_y_cohen_d_pooled_A15": 1.1009186967806268
+ }
+}

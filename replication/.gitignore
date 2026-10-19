@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+logs/
+logs_smoke/
+data/*.csv
+data/voteview_all/
+data/agendas/
+paper/.generated_before.json
+paper/pdf/*.html
+.Rhistory

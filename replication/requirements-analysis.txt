@@ -1,0 +1,7 @@
+# Path B (analysis from intermediates, CPU). Versions used for the paper's analysis steps.
+numpy==1.26.4
+pandas==2.2.3
+psutil>=5.9.8   # 5.9.0 (paper environment) has no Python 3.12 wheel; psutil is used only for the RAM guard
+# torch is needed only to read .pt files; any recent CPU build works (the paper used 2.12.0.dev20260403+cu128):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch

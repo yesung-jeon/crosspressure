@@ -1,0 +1,484 @@
+{
+ "sealed": "2026-10-17T15:31",
+ "plan": "PLAN.md v0.1, addenda A1-A5 (A4: B3 and specificity corrected after the first 2026-10-16 Codex audit; A5: axis-specific map check, order-consistency sensitivity)",
+ "confirmatory_by_model": {
+  "qwen": {
+   "pushes": {
+    "mu": 52.75285339355469,
+    "frac_H": 0.28,
+    "frac_L": 0.2,
+    "norm_H": 14.770798950195314,
+    "norm_L": 10.550570678710939,
+    "layer": 14
+   },
+   "n_prompts": 191142,
+   "mean_mass": 0.9999998516848513,
+   "D": {
+    "P1_Dp_minus_placebo": {
+     "est": 1.0174074074074668,
+     "ci95": [
+      0.9275648148149332,
+      1.1085212962964208
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "rank": 0,
+     "n": 11880,
+     "clusters": 20
+    },
+    "P2_Dp_minus_Dm": {
+     "est": 1.3981481481481455,
+     "ci95": [
+      1.32592592592592,
+      1.4694444444444383
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "rank": 0,
+     "n": 2160,
+     "clusters": 20
+    },
+    "P4_Dp_minus_Sm": {
+     "est": 0.538888888888889,
+     "ci95": [
+      0.4911111111111115,
+      0.5864814814814809
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "rank": 0,
+     "n": 2160,
+     "clusters": 20
+    },
+    "placebo_spread": {
+     "min": 2.415277777777778,
+     "max": 3.6277777777777778,
+     "sd": 0.36857403887248047
+    }
+   },
+   "B": {
+    "B1_Democrat": {
+     "est": 0.1820423303094506,
+     "ci95": [
+      0.17202234147195355,
+      0.1921973680661756
+     ],
+     "p_holm": 0.0028002800280028,
+     "p_wcb": 0.0023002300230023,
+     "supported": true,
+     "n": 1080,
+     "clusters": 10
+    },
+    "B2_Republican": {
+     "est": 0.14831537871841083,
+     "ci95": [
+      0.14099014773787175,
+      0.155754196083401
+     ],
+     "p_holm": 0.0028002800280028,
+     "p_wcb": 0.0014001400140014,
+     "supported": true,
+     "n": 1080,
+     "clusters": 10
+    },
+    "B3_Republican_minus_Democrat_conflict_effect": {
+     "est": -0.033726951591037294,
+     "ci95": [
+      -0.04619758051836913,
+      -0.02177704173174029
+     ],
+     "p_wcb": 0.0,
+     "n": 2160,
+     "clusters": 20
+    },
+    "economic_dominance": {
+     "Democrat": 0.84,
+     "Republican": 0.898
+    }
+   },
+   "C": {
+    "C1_entropy_toward_loser_minus_toward_winner|H": {
+     "est": 0.2212215930762118,
+     "ci95": [
+      0.21123873277056707,
+      0.23107348728413596
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "n": 1552,
+     "clusters": 20
+    },
+    "C2_switch_toward_loser_minus_toward_winner|H": {
+     "est": 0.47422680412371077,
+     "ci95": [
+      0.4522797321713244,
+      0.49582979062599525
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "n": 1552,
+     "clusters": 20
+    }
+   },
+   "S": {
+    "Democrat": {
+     "econ_on": 0.403,
+     "econ_off": 0.25,
+     "econ_specificity": 0.617,
+     "soc_on": 0.582,
+     "soc_off": 0.024,
+     "soc_specificity": 0.96
+    },
+    "Republican": {
+     "econ_on": 0.862,
+     "econ_off": 0.52,
+     "econ_specificity": 0.624,
+     "soc_on": 0.755,
+     "soc_off": 0.542,
+     "soc_specificity": 0.582
+    }
+   }
+  },
+  "llama": {
+   "pushes": {
+    "mu": 7.939260482788086,
+    "frac_H": 0.8,
+    "frac_L": 0.5714,
+    "norm_H": 6.351408386230469,
+    "norm_L": 4.536493439865112,
+    "layer": 14
+   },
+   "n_prompts": 191142,
+   "mean_mass": 0.969013310269846,
+   "D": {
+    "P1_Dp_minus_placebo": {
+     "est": 1.9096759259260385,
+     "ci95": [
+      1.79596597222245,
+      2.02352824074097
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "rank": 0,
+     "n": 11880,
+     "clusters": 20
+    },
+    "P2_Dp_minus_Dm": {
+     "est": 2.910185185185183,
+     "ci95": [
+      2.5937546296296268,
+      3.2290740740740693
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "rank": 0,
+     "n": 2160,
+     "clusters": 20
+    },
+    "P4_Dp_minus_Sm": {
+     "est": 2.3666666666666654,
+     "ci95": [
+      2.22499074074074,
+      2.512037037037035
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": true,
+     "rank": 0,
+     "n": 2160,
+     "clusters": 20
+    },
+    "placebo_spread": {
+     "min": 1.5412037037037036,
+     "max": 4.620833333333334,
+     "sd": 1.007372997825636
+    }
+   },
+   "B": {
+    "B1_Democrat": {
+     "est": -0.13559482285814153,
+     "ci95": [
+      -0.16507499047501428,
+      -0.10611465524126865
+     ],
+     "p_holm": 0.004000400040004,
+     "p_wcb": 0.0029002900290029,
+     "supported": false,
+     "n": 1080,
+     "clusters": 10
+    },
+    "B2_Republican": {
+     "est": -0.1534380943044948,
+     "ci95": [
+      -0.190319057631184,
+      -0.11603696878880221
+     ],
+     "p_holm": 0.004000400040004,
+     "p_wcb": 0.002000200020002,
+     "supported": false,
+     "n": 1080,
+     "clusters": 10
+    },
+    "B3_Republican_minus_Democrat_conflict_effect": {
+     "est": -0.01784327144635476,
+     "ci95": [
+      -0.06841862883717528,
+      0.03274011402225065
+     ],
+     "p_wcb": 0.5295529552955296,
+     "n": 2160,
+     "clusters": 20
+    },
+    "economic_dominance": {
+     "Democrat": 0.364,
+     "Republican": 0.925
+    }
+   },
+   "C": {
+    "C1_entropy_toward_loser_minus_toward_winner|H": {
+     "est": 0.1121298347198586,
+     "ci95": [
+      0.06710656720295283,
+      0.1577206411772165
+     ],
+     "p_holm": 0.00040004000400040005,
+     "p_wcb": 0.00020002000200020003,
+     "supported": true,
+     "n": 238,
+     "clusters": 20
+    },
+    "C2_switch_toward_loser_minus_toward_winner|H": {
+     "est": 0.14285714285714288,
+     "ci95": [
+      0.06842737094837938,
+      0.2172869147659064
+     ],
+     "p_holm": 0.0049004900490049,
+     "p_wcb": 0.0049004900490049,
+     "supported": false,
+     "n": 238,
+     "clusters": 20
+    }
+   },
+   "S": {
+    "Democrat": {
+     "econ_on": 0.003,
+     "econ_off": 0.027,
+     "econ_specificity": 0.101,
+     "soc_on": 0.208,
+     "soc_off": 0.022,
+     "soc_specificity": 0.905
+    },
+    "Republican": {
+     "econ_on": 0.348,
+     "econ_off": 0.056,
+     "econ_specificity": 0.861,
+     "soc_on": 0.3,
+     "soc_off": 0.232,
+     "soc_specificity": 0.564
+    }
+   }
+  },
+  "olmo": {
+   "pushes": {
+    "mu": 11.670026779174805,
+    "frac_H": 0.56,
+    "frac_L": 0.4,
+    "norm_H": 6.535214996337891,
+    "norm_L": 4.668010711669922,
+    "layer": 15
+   },
+   "n_prompts": 191142,
+   "mean_mass": 0.9510280051193644,
+   "D": {
+    "P1_Dp_minus_placebo": {
+     "est": 0.14287037037037845,
+     "ci95": [
+      -0.0963916666666642,
+      0.3852268518518807
+     ],
+     "p_holm": 0.49744974497449745,
+     "p_wcb": 0.2698269826982698,
+     "supported": false,
+     "rank": 3,
+     "n": 11880,
+     "clusters": 20
+    },
+    "P2_Dp_minus_Dm": {
+     "est": 0.2912037037037034,
+     "ci95": [
+      -0.1801435185185191,
+      0.7666921296296296
+     ],
+     "p_holm": 0.49744974497449745,
+     "p_wcb": 0.24872487248724873,
+     "supported": false,
+     "rank": 3,
+     "n": 2160,
+     "clusters": 20
+    },
+    "P4_Dp_minus_Sm": {
+     "est": -0.6240740740740734,
+     "ci95": [
+      -0.8242685185185169,
+      -0.42924999999999935
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": false,
+     "rank": 3,
+     "n": 2160,
+     "clusters": 20
+    },
+    "placebo_spread": {
+     "min": 0.924074074074074,
+     "max": 3.2092592592592593,
+     "sd": 0.660906261850505
+    }
+   },
+   "B": {
+    "B1_Democrat": {
+     "est": 0.2564219425705506,
+     "ci95": [
+      0.23605626565029067,
+      0.276414010890937
+     ],
+     "p_holm": 0.0022002200220022,
+     "p_wcb": 0.0019001900190019003,
+     "supported": true,
+     "n": 1080,
+     "clusters": 10
+    },
+    "B2_Republican": {
+     "est": 0.24550950778741187,
+     "ci95": [
+      0.22522869926787556,
+      0.26578697357723435
+     ],
+     "p_holm": 0.0022002200220022,
+     "p_wcb": 0.0011001100110011,
+     "supported": true,
+     "n": 1080,
+     "clusters": 10
+    },
+    "B3_Republican_minus_Democrat_conflict_effect": {
+     "est": -0.01091243478313547,
+     "ci95": [
+      -0.04118338894404923,
+      0.01962354360518538
+     ],
+     "p_wcb": 0.5551555155515552,
+     "n": 2160,
+     "clusters": 20
+    },
+    "economic_dominance": {
+     "Democrat": 0.684,
+     "Republican": 0.713
+    }
+   },
+   "C": {
+    "C1_entropy_toward_loser_minus_toward_winner|H": {
+     "est": -0.022009846827229798,
+     "ci95": [
+      -0.07305488217060868,
+      0.02904347694356065
+     ],
+     "p_holm": 0.4142414241424142,
+     "p_wcb": 0.4142414241424142,
+     "supported": false,
+     "n": 1744,
+     "clusters": 20
+    },
+    "C2_switch_toward_loser_minus_toward_winner|H": {
+     "est": 0.14449541284403672,
+     "ci95": [
+      0.12597266644221855,
+      0.16287612574699092
+     ],
+     "p_holm": 0.0,
+     "p_wcb": 0.0,
+     "supported": false,
+     "n": 1744,
+     "clusters": 20
+    }
+   },
+   "S": {
+    "Democrat": {
+     "econ_on": 0.162,
+     "econ_off": 0.028,
+     "econ_specificity": 0.853,
+     "soc_on": 0.404,
+     "soc_off": 0.336,
+     "soc_specificity": 0.546
+    },
+    "Republican": {
+     "econ_on": 0.282,
+     "econ_off": 0.28,
+     "econ_specificity": 0.502,
+     "soc_on": 0.143,
+     "soc_off": 0.003,
+     "soc_specificity": 0.977
+    }
+   }
+  }
+ },
+ "files": {
+  "PLAN.md": "9176d8a95092079dabca2916946bf026cf475430d7a68a25725cdd6bd741f5ab",
+  "PLAN_REVIEW.md": "ffc49fb0914e54f376426d35709eee46bd903d49a35983ce1eb30221d6f83d5e",
+  "ASSESSMENT.md": "972eab3e961ee6b71dd7f792a442924aa1bf454427d5009f4c2ddf938cc38ad2",
+  "run_chain.sh": "57ac5f3d5f92a80842540cf6ccd30ec22a40011114e6f29eb8bf2d6c15ed12f0",
+  "code/l0_calibrate.py": "31099c4528e6bb92f5900ce415d971362a3bae880f14cdc4fdf41f00debd8672",
+  "code/l1_main.py": "3db2141e639d903983937cfcd52d77437009037baddcbc45ccdb09810232f758",
+  "code/l2_analyze.py": "c7fb63148abbd7eb81b986a4ed12aab66ded72eb983de8f3cb0ac5fc8f474bb7",
+  "code/l_common.py": "fc896f14b4d227aee6d5ccec703d8235ccea7711b57362dac3d43e26184242f8",
+  "code/seal.py": "482f7c6183ecd0bb9c3818569141fad704fd501b49323bf7d6f222388668585d",
+  "code/synth_check.py": "5df9933bfc8db9e3282a3c59cecd1cb234b6cea75607581bdfb2630182fdc7ab",
+  "code/test_load.py": "87c95fcd209a0f458216dab7a16c38383cb1effd3adff6d3da5a817f5cbff907",
+  "out/qwen/RESULTS.json": "d43b312dd93b887b8404e4a6d07013f2067d65c6c77deee0107832b1b0ad7429",
+  "out/qwen/main/mapcheck.csv": "4f67eac76a0bcf08a8e093e8c0b275b7412de68202c5aa8afc82b3c789fb98f0",
+  "out/qwen/main/norms.json": "8f834c3df8cdb5757c9bd50786219c4a99eed061c793c8aff5da7a58c5d5af10",
+  "out/qwen/main/part_00.csv.gz": "fcc175f4db2bf361f7967c0fe7d4a5b28c87c458f7b3b16f3766b5cd7356689f",
+  "out/qwen/main/part_01.csv.gz": "8a0dd06a3e832bc03ac8c8e38f88f6ced608cb49bad786e5b110d8206dfb0753",
+  "out/qwen/main/part_02.csv.gz": "4fd3a3734c1075133a01eaf2e62ebca3b41bb2de29692f6f15909b6392d69122",
+  "out/qwen/main/pushes.json": "b5ee835b26c2227ad8d48eb09a12060f81039a2a2d5383e83a437761bb56034f",
+  "out/qwen/tables/party_like_flips.csv": "9e2d1dd102580f42bf85e2a38ff5dbab000c27ef9b24fb35973b35130f811ef3",
+  "out/qwen/tables/party_like_own_p.csv": "31f386cbd1cf9ae75c17e2e1efa24ef660e0438bf2fc15c27f4ecfd370617485",
+  "out/qwen/tables/reversed_decided_dH.csv": "85f4d3b5ca48b2bcfb2fab84aab5b5cd51be7af032784ca1db4fc39759567918",
+  "out/qwen/tables/reversed_decided_switch.csv": "6e5506ad1afac6a58c26db9761e2f878bb3bc830bb7cde36f56ac959acea326a",
+  "out/qwen/tables/single_issue_specificity.csv": "c033185727b2f1ddbc7372934c1c6c307f0250995ca0e5e0861bc376ce9a9006",
+  "out/qwen/tables/units.csv": "461d51ac44ba294d71eac3502e30b2a0fc292ed74b50004e0c15ab57310d68b0",
+  "out/llama/RESULTS.json": "aeccc899b9b27be61bb96239b324f151851139ad631704a8680fb54d88fa33ab",
+  "out/llama/main/mapcheck.csv": "cf74b1979ec8e4ea108a6dacd5bc950636f456ad8e70e8a0d2a62c2f72a09ecc",
+  "out/llama/main/norms.json": "2f2c5eae795bbe1751608b61261318103b85591a3a3f3c757b5647d5405483d6",
+  "out/llama/main/part_00.csv.gz": "7bddbbff5c608099951bf6632d511329fb9dd9fd443270e7a80cdbeaeca5490a",
+  "out/llama/main/part_01.csv.gz": "d5246ecaff0e27317ca4cbe31dcde179f26b6aff6cbeb3a2a20036758282f534",
+  "out/llama/main/part_02.csv.gz": "5975fa1d0a530f012de0977a1e13c9ca975eb99088414e0d3b445e69af9cb7ae",
+  "out/llama/main/pushes.json": "6b658ff4b7aca5a5904a6412788f073942646fd60623e4a0e06461572a13cbf0",
+  "out/llama/tables/party_like_flips.csv": "d6a31a42680301306640cf26923f4af3f971f793690ff34fd24693f7304074f5",
+  "out/llama/tables/party_like_own_p.csv": "9209481fc5a829393a1b1cf3ae26c0e141891857601baad7aa49e4b7498062c0",
+  "out/llama/tables/reversed_decided_dH.csv": "913fc4c28d284c37a66d1d16ef16cdcb30dbdeff54b7c2801ca5298890332fdf",
+  "out/llama/tables/reversed_decided_switch.csv": "a4f6c67b8f47d732c43970055eaf0ccbd6b6749b096178df2623e4fe25cec22d",
+  "out/llama/tables/single_issue_specificity.csv": "79cac03876c3657c823d0a0b0fb2e57cc9c132b08dab512ca3e3d9a1d5424585",
+  "out/llama/tables/units.csv": "20885d7dacc36df9ffa249c2db4347f7e2a441399829f288ce770b636fef6472",
+  "out/olmo/RESULTS.json": "a1ca73623553ddfcb201fa69eb817f4a787e1ee475361ce7a13a78fcfe27f76f",
+  "out/olmo/main/mapcheck.csv": "b284881738d5af965d461c716a272228605731a7d53c171581e34ac85737f501",
+  "out/olmo/main/norms.json": "794c19aa5327ec0801063d2ebb902780e2bd0f1c0d275c54bcd8f625fea37cc9",
+  "out/olmo/main/part_00.csv.gz": "1f84df19790eddad8f99ef72b0baa0ed3f1d40667dc72b4674210aef978e921b",
+  "out/olmo/main/part_01.csv.gz": "5e4427fc30c6ff9a2257fead57d77c28133052f8e7f0877426c824e73514f14a",
+  "out/olmo/main/part_02.csv.gz": "3974b03ea7c28c174fc43b995501b83fc799113d8be73936a8c505e982fa15cc",
+  "out/olmo/main/pushes.json": "e53b4e6f428db1def7ce2155b826aee5a3f19169a74f839e73c7d4952b0acb3f",
+  "out/olmo/tables/party_like_flips.csv": "7a3372ae9f34cd9c9376c964891e0fa13ff6cba8773d50a94ab8b37a65b0c46b",
+  "out/olmo/tables/party_like_own_p.csv": "d80a677dfe62db10c296dd4ff3d47f5103018d976b9d3d17d8f386044346243f",
+  "out/olmo/tables/reversed_decided_dH.csv": "7a41e2a801081cc463b1ce7680fbba58f1f54c5e9de29e60d5cf0c959600715c",
+  "out/olmo/tables/reversed_decided_switch.csv": "a7d93782bd4c09d7fe33c2e289a1902994d63fe0fe1cd4603a9cfdeb1e5990e4",
+  "out/olmo/tables/single_issue_specificity.csv": "e38ecfb45fd36e86e387b788edc9c7e59d7c812a9ced814eefdd14c8e891799f",
+  "out/olmo/tables/units.csv": "5328f3e000954a9ba88bbccc5daa492585e96fb776d7c34e46aa6fc74bfd1b42"
+ }
+}

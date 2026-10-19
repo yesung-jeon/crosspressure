@@ -1,0 +1,18 @@
+{
+ "sealed": "2026-10-19T15:30",
+ "note": "descriptive follow-up added at the author's request (2026-10-19, Section 7). Resealed after the Codex audit: only a code comment changed (the last observed Congress with both scales is the 117th, 2021); outputs byte-identical to the first seal.",
+ "previous_seal": {
+  "sealed": "2026-10-19T14:51",
+  "note": "descriptive follow-up added at the author's request (2026-10-19, Section 7); grouping fixed before writing the text (118th Congress joined to 2010s)",
+  "sha256": {
+   "members_by_era.py": "f6d2e2faa72959c6f99595a92334efa50fbec85d8c12e2f2d992d30d31c1ec49",
+   "members_by_era.json": "519a543d1841e4538706cb705b42a64689d65aabccc7f9186e68c42e3efc37e1",
+   "members_table.csv": "a32b4860a1799f3a005da5114492fc328ee2018dcc07e0bd468d9d3479539534"
+  }
+ },
+ "sha256": {
+  "members_by_era.py": "f209cc0fb29e57e9d9e6ba242484cb7100d9834f7be9a52248ce58ef4d537b8d",
+  "members_by_era.json": "519a543d1841e4538706cb705b42a64689d65aabccc7f9186e68c42e3efc37e1",
+  "members_table.csv": "a32b4860a1799f3a005da5114492fc328ee2018dcc07e0bd468d9d3479539534"
+ }
+}

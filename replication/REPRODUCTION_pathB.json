@@ -1,0 +1,709 @@
+{
+ "path": "B",
+ "models": [
+  "qwen",
+  "llama",
+  "olmo"
+ ],
+ "overall": "PASS",
+ "rows": [
+  {
+   "row": "qwen A3 r(x, DW-NOMINATE dim1)",
+   "act": 1,
+   "sealed": 0.7134447769271385,
+   "reproduced": 0.7134447769271385,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A4 r(x, economic scale)",
+   "act": 1,
+   "sealed": 0.7685695332900105,
+   "reproduced": 0.7685695332900105,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A4 r(y, abortion scale)",
+   "act": 1,
+   "sealed": 0.6124936815298856,
+   "reproduced": 0.6124936815298856,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A6 party gap x",
+   "act": 1,
+   "sealed": 1.2526133787583067,
+   "reproduced": 1.2526133787583067,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A6 party gap y",
+   "act": 1,
+   "sealed": 0.474240458609245,
+   "reproduced": 0.474240458609245,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall EL-SP",
+   "act": 2,
+   "sealed": 0.7246410375173692,
+   "reproduced": 0.7246410375173692,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall ER-ST",
+   "act": 2,
+   "sealed": 0.7002063983488133,
+   "reproduced": 0.7002063983488133,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall EL-ST",
+   "act": 2,
+   "sealed": 0.2138157894736842,
+   "reproduced": 0.2138157894736842,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A9 recall ER-SP",
+   "act": 2,
+   "sealed": 0.14200298953662183,
+   "reproduced": 0.14200298953662183,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed EL-SP (/15)",
+   "act": 2,
+   "sealed": 13,
+   "reproduced": 13,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed ER-ST (/15)",
+   "act": 2,
+   "sealed": 13,
+   "reproduced": 13,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed EL-ST (/15)",
+   "act": 2,
+   "sealed": 6,
+   "reproduced": 6,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A12 placed ER-SP (/15)",
+   "act": 2,
+   "sealed": 2,
+   "reproduced": 2,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A'3 H3 consistency",
+   "act": 3,
+   "sealed": -0.0867401353993813,
+   "reproduced": -0.0867401353993813,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.09544967345953694,
+    -0.0779748674781941
+   ],
+   "reproduced_ci95": [
+    -0.09544967345953694,
+    -0.0779748674781941
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A'4 H4 quadrant hit",
+   "act": 3,
+   "sealed": -0.12692307692307692,
+   "reproduced": -0.12692307692307692,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.19230769230769232,
+    -0.06538461538461539
+   ],
+   "reproduced_ci95": [
+    -0.19230769230769232,
+    -0.06538461538461539
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen A'1 H1 choice entropy",
+   "act": 3,
+   "sealed": 0.005738252947396386,
+   "reproduced": 0.005738252947396386,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.0023268688337787454,
+    0.013610551132814612
+   ],
+   "reproduced_ci95": [
+    -0.0023268688337787454,
+    0.013610551132814612
+   ],
+   "verdict_sealed": false,
+   "verdict_reproduced": false,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B1 reversed - party-like entropy, Democrat",
+   "act": 4,
+   "sealed": 0.1820423303094506,
+   "reproduced": 0.1820423303094506,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.17202234147195355,
+    0.1921973680661756
+   ],
+   "reproduced_ci95": [
+    0.17202234147195355,
+    0.1921973680661756
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B2 reversed - party-like entropy, Republican",
+   "act": 4,
+   "sealed": 0.14831537871841083,
+   "reproduced": 0.14831537871841083,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.14099014773787175,
+    0.155754196083401
+   ],
+   "reproduced_ci95": [
+    0.14099014773787175,
+    0.155754196083401
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B5 economic share, Democrat (descriptive)",
+   "act": 4,
+   "sealed": 0.84,
+   "reproduced": 0.84,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen B5 economic share, Republican (descriptive)",
+   "act": 4,
+   "sealed": 0.898,
+   "reproduced": 0.898,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "qwen no-persona reversed - party-like (two-way item bootstrap)",
+   "act": 4,
+   "sealed": 0.17215659815865628,
+   "reproduced": 0.17215659815865628,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.03713324595204439,
+    0.3094128031032714
+   ],
+   "reproduced_ci95": [
+    0.03713324595204439,
+    0.3094128031032714
+   ],
+   "verdict_sealed": "+excl0",
+   "verdict_reproduced": "+excl0",
+   "status": "PASS"
+  },
+  {
+   "row": "llama A3 r(x, DW-NOMINATE dim1)",
+   "act": 1,
+   "sealed": 0.7846282243040669,
+   "reproduced": 0.7846282243040669,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A4 r(x, economic scale)",
+   "act": 1,
+   "sealed": 0.843466725470754,
+   "reproduced": 0.843466725470754,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A4 r(y, abortion scale)",
+   "act": 1,
+   "sealed": 0.6852059775770103,
+   "reproduced": 0.6852059775770103,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A6 party gap x",
+   "act": 1,
+   "sealed": 1.3952497476883974,
+   "reproduced": 1.3952497476883974,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A6 party gap y",
+   "act": 1,
+   "sealed": 0.9941383336023516,
+   "reproduced": 0.9941383336023516,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A9 recall EL-SP",
+   "act": 2,
+   "sealed": 0.8510884668828161,
+   "reproduced": 0.8510884668828161,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A9 recall ER-ST",
+   "act": 2,
+   "sealed": 0.8250773993808049,
+   "reproduced": 0.8250773993808049,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A9 recall EL-ST",
+   "act": 2,
+   "sealed": 0.19298245614035087,
+   "reproduced": 0.19298245614035087,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A9 recall ER-SP",
+   "act": 2,
+   "sealed": 0.15022421524663676,
+   "reproduced": 0.15022421524663676,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A12 placed EL-SP (/15)",
+   "act": 2,
+   "sealed": 15,
+   "reproduced": 15,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A12 placed ER-ST (/15)",
+   "act": 2,
+   "sealed": 14,
+   "reproduced": 14,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A12 placed EL-ST (/15)",
+   "act": 2,
+   "sealed": 5,
+   "reproduced": 5,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A12 placed ER-SP (/15)",
+   "act": 2,
+   "sealed": 3,
+   "reproduced": 3,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A'3 H3 consistency",
+   "act": 3,
+   "sealed": -0.12675468857417274,
+   "reproduced": -0.12675468857417274,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.13959157723072238,
+    -0.11373730556179576
+   ],
+   "reproduced_ci95": [
+    -0.13959157723072238,
+    -0.11373730556179576
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A'4 H4 quadrant hit",
+   "act": 3,
+   "sealed": -0.3192307692307692,
+   "reproduced": -0.3192307692307692,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.3730769230769231,
+    -0.2653846153846154
+   ],
+   "reproduced_ci95": [
+    -0.3730769230769231,
+    -0.2653846153846154
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "llama A'1 H1 choice entropy",
+   "act": 3,
+   "sealed": 0.061020183612371694,
+   "reproduced": 0.061020183612371694,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.04996238499043999,
+    0.07233829533095208
+   ],
+   "reproduced_ci95": [
+    0.04996238499043999,
+    0.07233829533095208
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "llama B1 reversed - party-like entropy, Democrat",
+   "act": 4,
+   "sealed": -0.13559482285814153,
+   "reproduced": -0.13559482285814153,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.16507499047501428,
+    -0.10611465524126865
+   ],
+   "reproduced_ci95": [
+    -0.16507499047501428,
+    -0.10611465524126865
+   ],
+   "verdict_sealed": false,
+   "verdict_reproduced": false,
+   "status": "PASS"
+  },
+  {
+   "row": "llama B2 reversed - party-like entropy, Republican",
+   "act": 4,
+   "sealed": -0.1534380943044948,
+   "reproduced": -0.1534380943044948,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.190319057631184,
+    -0.11603696878880221
+   ],
+   "reproduced_ci95": [
+    -0.190319057631184,
+    -0.11603696878880221
+   ],
+   "verdict_sealed": false,
+   "verdict_reproduced": false,
+   "status": "PASS"
+  },
+  {
+   "row": "llama B5 economic share, Democrat (descriptive)",
+   "act": 4,
+   "sealed": 0.364,
+   "reproduced": 0.364,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama B5 economic share, Republican (descriptive)",
+   "act": 4,
+   "sealed": 0.925,
+   "reproduced": 0.925,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "llama no-persona reversed - party-like (two-way item bootstrap)",
+   "act": 4,
+   "sealed": -0.05139885165197057,
+   "reproduced": -0.05139885165197057,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.1284818462177718,
+    0.02484348252693642
+   ],
+   "reproduced_ci95": [
+    -0.1284818462177718,
+    0.02484348252693642
+   ],
+   "verdict_sealed": "-incl0",
+   "verdict_reproduced": "-incl0",
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A3 r(x, DW-NOMINATE dim1)",
+   "act": 1,
+   "sealed": 0.6999169807498496,
+   "reproduced": 0.6999169807498496,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A4 r(x, economic scale)",
+   "act": 1,
+   "sealed": 0.7901144521524148,
+   "reproduced": 0.7901144521524148,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A4 r(y, abortion scale)",
+   "act": 1,
+   "sealed": 0.6857408699215862,
+   "reproduced": 0.6857408699215862,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A6 party gap x",
+   "act": 1,
+   "sealed": 1.289790394825292,
+   "reproduced": 1.289790394825292,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A6 party gap y",
+   "act": 1,
+   "sealed": 0.9700053279616045,
+   "reproduced": 0.9700053279616045,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A9 recall EL-SP",
+   "act": 2,
+   "sealed": 0.7876331635016212,
+   "reproduced": 0.7876331635016212,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A9 recall ER-ST",
+   "act": 2,
+   "sealed": 0.7856037151702786,
+   "reproduced": 0.7856037151702786,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A9 recall EL-ST",
+   "act": 2,
+   "sealed": 0.13925438596491227,
+   "reproduced": 0.13925438596491227,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A9 recall ER-SP",
+   "act": 2,
+   "sealed": 0.11360239162929746,
+   "reproduced": 0.11360239162929746,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A12 placed EL-SP (/15)",
+   "act": 2,
+   "sealed": 13,
+   "reproduced": 13,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A12 placed ER-ST (/15)",
+   "act": 2,
+   "sealed": 13,
+   "reproduced": 13,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A12 placed EL-ST (/15)",
+   "act": 2,
+   "sealed": 2,
+   "reproduced": 2,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A12 placed ER-SP (/15)",
+   "act": 2,
+   "sealed": 3,
+   "reproduced": 3,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A'3 H3 consistency",
+   "act": 3,
+   "sealed": -0.175357104920571,
+   "reproduced": -0.175357104920571,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.18773489454315095,
+    -0.16268604352091098
+   ],
+   "reproduced_ci95": [
+    -0.18773489454315095,
+    -0.16268604352091098
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A'4 H4 quadrant hit",
+   "act": 3,
+   "sealed": -0.4730769230769231,
+   "reproduced": -0.4730769230769231,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    -0.5192307692307693,
+    -0.42307692307692313
+   ],
+   "reproduced_ci95": [
+    -0.5192307692307693,
+    -0.42307692307692313
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo A'1 H1 choice entropy",
+   "act": 3,
+   "sealed": 0.06814043728057757,
+   "reproduced": 0.06814043728057757,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.056040002166469254,
+    0.08108853689604056
+   ],
+   "reproduced_ci95": [
+    0.056040002166469254,
+    0.08108853689604056
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo B1 reversed - party-like entropy, Democrat",
+   "act": 4,
+   "sealed": 0.2564219425705506,
+   "reproduced": 0.2564219425705506,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.23605626565029067,
+    0.276414010890937
+   ],
+   "reproduced_ci95": [
+    0.23605626565029067,
+    0.276414010890937
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo B2 reversed - party-like entropy, Republican",
+   "act": 4,
+   "sealed": 0.24550950778741187,
+   "reproduced": 0.24550950778741187,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.22522869926787556,
+    0.26578697357723435
+   ],
+   "reproduced_ci95": [
+    0.22522869926787556,
+    0.26578697357723435
+   ],
+   "verdict_sealed": true,
+   "verdict_reproduced": true,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo B5 economic share, Democrat (descriptive)",
+   "act": 4,
+   "sealed": 0.684,
+   "reproduced": 0.684,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo B5 economic share, Republican (descriptive)",
+   "act": 4,
+   "sealed": 0.713,
+   "reproduced": 0.713,
+   "abs_diff": 0.0,
+   "status": "PASS"
+  },
+  {
+   "row": "olmo no-persona reversed - party-like (two-way item bootstrap)",
+   "act": 4,
+   "sealed": 0.4817942063120626,
+   "reproduced": 0.4817942063120626,
+   "abs_diff": 0.0,
+   "sealed_ci95": [
+    0.34969727657957617,
+    0.6071054872947785
+   ],
+   "reproduced_ci95": [
+    0.34969727657957617,
+    0.6071054872947785
+   ],
+   "verdict_sealed": "+excl0",
+   "verdict_reproduced": "+excl0",
+   "status": "PASS"
+  }
+ ],
+ "patterns": [
+  {
+   "model": "qwen",
+   "aligned_recall_gt_cross_and_gap_x_gt_y": true
+  },
+  {
+   "model": "llama",
+   "aligned_recall_gt_cross_and_gap_x_gt_y": true
+  },
+  {
+   "model": "olmo",
+   "aligned_recall_gt_cross_and_gap_x_gt_y": true
+  }
+ ]
+}
